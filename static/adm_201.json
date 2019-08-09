@@ -1,0 +1,160 @@
+[{
+    "id": 1,
+    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 2,
+    "text": "How many app exchange apps can you install in PE?",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "20",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "10",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "10",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "5",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 3,
+    "text": "How do you delete a user?",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "You cannot delete a Salesforce User",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Going to their profile and clicking the delete button",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Deleting all information from their profile",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Using an external application",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 4,
+    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "On the results page of a Contact report.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "On the detail page for a Lead record.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "On the detail page for an Opportunity record.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "On the results page of a Lead report.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "On the detail page for a Contact record",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 5,
+    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+}
+]
