@@ -68,6 +68,7 @@
         },
         methods: {
             getQuestions(numberOfQuestions) {
+                console.log("aqui");
                 this.numberOfQuestions = numberOfQuestions;                
                 let url_bd = './static/adm_201.json';
                 axios.get(url_bd).then((response) => {
@@ -77,7 +78,7 @@
                             question.answers = this.randomSort(question.answers);
                             this.bdExamTest.push(question);
                         }                
-                    }while (this.bdExamTest.length < 3);                     
+                    }while (this.bdExamTest.length < this.numberOfQuestions);                     
                 }, (error) => {
                     console.log(error);
                 })
