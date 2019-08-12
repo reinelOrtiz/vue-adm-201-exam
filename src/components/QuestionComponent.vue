@@ -22,7 +22,8 @@
                   <h4>good luck!</h4>
             </tab-content>
 
-            <tab-content v-for="(question, index) in bdExamTest" :key="index" class="text-left">
+            <tab-content v-for="(question, index) in bdExamTest" :key="index" class="text-left"
+                :before-change="() => validateStep(question)">
 
                 <h5>{{question.text}}</h5><span>{{question.obs}}<br></span><br>
                 <div v-for="(answer, index) in question.answers" :key="index">
@@ -54,6 +55,7 @@
                             </label>
                     </div>                    
                 </div>
+                <div class="text-right" style="color: #e60b0b; font-weight: bold"><label>{{nonSelectedMsj}}</label></div>
                 <hr>
             </tab-content>    
         </form-wizard>
@@ -74,7 +76,8 @@
             return{
                 attemps: 0,
                 bdExamTest: [],
-                numberOfQuestions: 0
+                numberOfQuestions: 0,
+                nonSelectedMsj: ''
             }
         },
         components: {
@@ -138,10 +141,31 @@
             },
             hide () {
                 this.$modal.hide('ScoreExamComponent');
+            },
+            validateStep(qu) {
+                this.nonSelectedMsj = "";
+                let nextStep = 0;
+                if(qu.single_type){
+                    nextStep = qu.answ_selected;
+                } else {
+                    qu.answers.forEach(function(a) {
+                        if(a.is_selected){
+                            nextStep++;
+                        }                       
+                    });
+                }
+                if(nextStep > 0) {
+                    this.nonSelectedMsj = "";
+                    return true;
+                } else {
+                    this.nonSelectedMsj = "Seleccione una respuesta...";
+                    return false;
+                }                
             }
         },
         created() {            
             let numberOfQuestions = `${this.$route.params.numberOfQuestions}`;
+            this.nonSelectedMsj = "";
             if(numberOfQuestions === 'undefined'){
                 alert("Se requiere la cantidad de preguntas a cargar; será redireccionado a la página de incio.");
                 this.$router.push({name: 'AdmExamInitComponent'});            
