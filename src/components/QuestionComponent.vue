@@ -1,5 +1,12 @@
 <template>
     <div class="alert alert-secondary border border-danger rounded">
+
+        <div class="container">
+            <div class="row">
+                <TimerComponent ref="timerCount"></TimerComponent>
+            </div>
+        </div>
+        
         <form-wizard
             @on-complete="onComplete"
             step-size="xs"
@@ -7,14 +14,16 @@
             title="Salesforce ADM-201 Exam" subtitle=""><hr>
 
             <tab-content>
-              <p>Este prueba contiene {{numberOfQuestions}} preguntas. Encontrará preguntas de selección múltiple y de única respuesta (no todas estan marcadas por el tipo), 
+              <p>Esta prueba contiene {{numberOfQuestions}} preguntas. Encontrará preguntas de selección múltiple y de única respuesta (no todas estan marcadas por el tipo), 
                   tendrá que seleccionar la mejor opción u opciones según corresponda de acuerdo a la pregunta. Al finalizar se mostrará el resumen de la prueba y podrá navegar
-                  a través de las preguntas para verificar sus respuestas</p>
-                  <p>Nota: No intente refrescar o recargar la página, si lo hace será redireccionado al página de inicio para seleccionar la cantidad de preguntas e iniciar nuevamente.</p>
+                  a través de las preguntas para verificar sus respuestas.</p>
+                  <p>Nota: Para reiniciar la prueba presione <span style="font-weight: bold">F5</span> en esta página, será redireccionado a la página inicial para seleccionar la cantidad de preguntas.
+                      Tenga en cuenta que si lo realiza durante el transcurso de una prueba, su proceso se perderá y tendrá que inciar nuevamente.</p>
                   <h4>good luck!</h4>
             </tab-content>
 
             <tab-content v-for="(question, index) in bdExamTest" :key="index" class="text-left">
+
                 <h5>{{question.text}}</h5><span>{{question.obs}}<br></span><br>
                 <div v-for="(answer, index) in question.answers" :key="index">
 
@@ -23,7 +32,7 @@
                             :id="'question_' + question.id + '_answer_' + answer.id" 
                             :name="'question_' + question.id"
                             :value="answer.id" v-model="question.answ_selected"
-                            class="custom-control-input" required>
+                            class="custom-control-input">
                             
                             <label :for="'question_' + question.id + '_answer_' + answer.id" class="custom-control-label">
                                 <span v-if="attemps > 0 && answer.is_ok" class="is_ok">&#10003;</span>
@@ -36,7 +45,7 @@
                             :id="'question_' + question.id + '_answer_' + answer.id" 
                             :name="'question_' + question.id"
                             :value="!answer.is_selected" v-model="answer.is_selected"
-                            class="custom-control-input" required>
+                            class="custom-control-input">
                             
                             <label :for="'question_' + question.id + '_answer_' + answer.id" class="custom-control-label">
                                 <span v-if="attemps > 0 && answer.is_ok" class="is_ok">&#10003;</span>
@@ -56,6 +65,7 @@
 <script>
     import axios from 'axios'
     import ScoreExamComponent from './ScoreExamComponent'
+    import TimerComponent from './TimerComponent'
 
     export default {
         name: 'QuestionComponent',
@@ -68,11 +78,11 @@
             }
         },
         components: {
-            'ScoreExamComponent': ScoreExamComponent
+            'ScoreExamComponent': ScoreExamComponent,
+            'TimerComponent': TimerComponent
         },
         methods: {
-            getQuestions(numberOfQuestions) {
-                console.log("aqui");
+            getQuestions(numberOfQuestions) {                
                 this.numberOfQuestions = numberOfQuestions;                
                 let url_bd = './static/adm_201.json';
                 axios.get(url_bd).then((response) => {
@@ -88,8 +98,9 @@
                 })
             },
             onComplete () {
-                this.attemps++;
+                this.attemps++;                
                 let score = 0;
+                this.$refs.timerCount.pause();
                 this.bdExamTest.forEach(function(question) {
 
                     if(question.single_type){
@@ -111,7 +122,7 @@
                     }
                 });               
                 //alert('Resultado:' + score +' / '+ this.numberOfQuestions);
-                this.show(score, this.numberOfQuestions);
+                this.show(score, this.numberOfQuestions, this.$refs.timerCount.timeElapsed);
 
             },
             randomSort(list) {
@@ -119,12 +130,15 @@
                     return 0.5 - Math.random()
                 });
             },
-            show (score, numberOfQuestions) {
-                this.$modal.show('ScoreExamComponent', {"score": score, "numberOfQuestions": numberOfQuestions});
+            show (score, numberOfQuestions, timeElapsed) {
+                this.$modal.show('ScoreExamComponent', {
+                    "score": score, 
+                    "numberOfQuestions": numberOfQuestions,
+                    "timeElapsed": timeElapsed});
             },
             hide () {
                 this.$modal.hide('ScoreExamComponent');
-            }  
+            }
         },
         created() {            
             let numberOfQuestions = `${this.$route.params.numberOfQuestions}`;
