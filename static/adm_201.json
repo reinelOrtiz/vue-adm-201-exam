@@ -1,6 +1,7 @@
 [{
     "id": 1,
     "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
+    "obs": "(Select One)",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
@@ -34,6 +35,7 @@
 {
     "id": 2,
     "text": "How many app exchange apps can you install in PE?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
@@ -67,6 +69,7 @@
 {
     "id": 3,
     "text": "How do you delete a user?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
@@ -100,6 +103,7 @@
 {
     "id": 4,
     "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
+    "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
     "answered": false,
@@ -139,6 +143,7 @@
 {
     "id": 5,
     "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
@@ -158,41 +163,1713 @@
     ]
 },
 {
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
+    "id": 6,
+    "text": "Which is a capability of drag-and-drop dashboards?",
+    "obs": "Choose 2 answers",
+    "single_type": false,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
+            "text": "Drag and Drop chart types onto a dashboard to create a component",
             "is_selected": false,
-            "is_ok": false
+            "is_ok": true
         },
         {
             "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
+            "text": "Drag and Drop records onto a dashboard",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
+            "text": "Drag and Drop reports onto a dashboard as the data source of the component",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
+            "text": "Drag and Drop a dashboard onto any page in Salesforce",
             "is_selected": false,
             "is_ok": false
         }
     ]
 },
 {
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
+    "id": 7,
+    "text": "Identify the correct statement from the given list.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Lookup fields change the record ownership",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Lookup fields affect security",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Lookup fields can be used to delete an object",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Lookup field link two objects",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 8,
+    "text": "If you change the data type from a Checkbox to a Picklist, it can cause data loss.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 9,
+    "text": "Which of these objects can you map a field to on lead conversion?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Contacts",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Opportunities",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Account",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Cases",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 10,
+    "text": "To minimize the number of sharing rules, use \"Roles and Subordinates\" over \"Roles\" wherepossible.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 11,
+    "text": "Use Custom Summary Formulas to create calculated summaries on numerical fields in _________and ________ reports",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Tabular and Summary",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Custom and Standard",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 3,
+            "text": "Matrix and Tabular",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 4,
+            "text": "Summary and Matrix",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 12,
+    "text": "If you change the data type of any custom field used for lead conversion, that lead field mappingwill be deleted:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 13,
+    "text": "Page layouts are assigned to: ",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Roles",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Roles & subordinates",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 3,
+            "text": "Profiles",
+            "is_selected": false,
+            "is_ok": true
+        }
+        ,
+        {
+            "id": 4,
+            "text": "Users",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 14,
+    "text": "What is the Impact on a User of the Organization level Locale Changes?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "No Impact on the User as he keeps using his own default Locale",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "The User is asked for a Choice; if he would like to choose New Organization Locale or his ownLocale",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 3,
+            "text": "From a new session, user will see everything in the New Organization Locale",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 4,
+            "text": "The default Locale of the user is also set to the new Organization Level locale",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 15,
+    "text": "Which action type is represented by an icon in the process visualizer?",
+    "obs": "(Choose 2 answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Request rejection details",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Start a new task",
+            "is_selected": false,
+            "is_ok": true
+        }
+        ,
+        {
+            "id": 3,
+            "text": "View recall details",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 4,
+            "text": "Send an email alert",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 16,
+    "text": "How many other fields may a custom lead field be mapped to when converting a lead?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Three custom fields",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Custom lead fields cannot be mapped",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 3,
+            "text": "One custom field",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 4,
+            "text": "Two custom fields",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 17,
+    "text": "System Administrators have this permission by default.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Both Report Wizard and Report builder",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Report Wizard",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 3,
+            "text": "None of these",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 4,
+            "text": "Report Builder",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 18,
+    "text": "A project manager is leading a team project and would like to share project information and filesonly with the project team members. What Salesforce feature can support this requirement?",
+    "obs": "Choose 1 answer",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Create a private Chatter group and add the project team members to the group",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Create a private project workspace and add the project team members",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 3,
+            "text": "Create a public Chatter group. add the project team members. and then change the group accesslevel to private",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 4,
+            "text": "Create a public Chatter group and only invite the project team members",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 19,
+    "text": "What is the new Chart type available?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Report Charts",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Master Charts",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 3,
+            "text": "Chatter Charts",
+            "is_selected": false,
+            "is_ok": false
+        }
+        ,
+        {
+            "id": 4,
+            "text": "Scatter charts",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 20,
+    "text": "Which of the following special picklist fields are not available for record types because they’re usedexclusively for sales processes, lead processes, support processes, and solution processes",
+    "obs": "(Select all the aply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Lead Status",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Case Origin",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Solution Status",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Opportunity Stage",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Case Status",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 21,
+    "text": "What is a Junction Object?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "An object type to connect external web services",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "A standard object",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "A Many-to-Many relationship created with two lookup master-detail relationship",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "A Many-to-Many relationship created with two lookup relationships",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 22,
+    "text": "Name one place where inline Editing is not currently possible.",
+    "obs": "(Choose all that aply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "All",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Edit Page",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Related Lists",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "List Views",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 23,
+    "text": "What is the limit of Master-Detail Relationships per object?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "8",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "35",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "25",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "2",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 24,
+    "text": "The system administrator was testing workflow rules and needs to delete pending timebased workflow actions. How can he/she do this?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Deactivate the workflow rule",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Delete the actions in the Time-based Workflow queue",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Delete the workflow rule",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 25,
+    "text": "Sales representatives at Universal Containers need assistance from product managers whenselling certain products. Product managers do not have access to opportunities, but need to gainaccess when they are assisting with a specific deal. How can a system administrator accomplish this?",
+    "obs": "(Choose one answer:)",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Notify the product manager using opportunity update reminders.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Enable opportunity teams and allow users to add the product manager.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Use similar opportunities to show opportunities related to the product manager.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Enable account teams and allow users to add the product manager.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 26,
+    "text": "Can a Standard User Profile import members into a campaign?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "No",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Yes",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Only if they have \"Import Campaign Members\" permission checked.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Only if they have \"Modify All Data\" permission checked.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 27,
+    "text": "To track revenue gain or loss based on currency fluctuations, you must implement what feature?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Advanced Currency Management",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Sandbox",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Territory Management",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Multi-Currency",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 28,
+    "text": "The Data Import Wizard provides which benefits for importing data into Salesforce CRM?",
+    "obs": "(Select two)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Ability to import more than 50,000 records",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Prevents duplicate records from being imported",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Ability to import data for all standard and custom objects",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Prevents workflow rules from firing as records are loaded into the system",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 29,
+    "text": "It is possible for an Account to be part of multiple Territories?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Yes",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "No",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 30,
+    "text": "A Roll-up Summary field can be created when which relationship field is already in place?",
+    "obs": "(Select one)",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Master-detail relationship",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Lookup relationship",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Any of the above",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Hierarchical relationship",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 31,
+    "text": "A custom lead field can be mapped to:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Two contact fields",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "One case comment",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "One solution field",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "One account field",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 32,
+    "text": "What is the maximum length of the alias field?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "10",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "8",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "4",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "12",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 33,
+    "text": "Which of the following does not need business process?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Cases",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Leads",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Opportunities",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Contacts",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 34,
+    "text": "Conditional highlighting can not be used for?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Summary Reports",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Tabular Reports",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Matrix Reports",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 35,
+    "text": "Which field on the user record controls the currency for quotas, forecasts, and reports?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Locale",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Currency",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Default Currency ISO code",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Information Currency",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 36,
+    "text": "Which statements are true about Cloud Scheduler?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Cloud Scheduler is now enabled by default for all organizations.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Administrators can add or remove the New Meeting Request button on multiple page layouts usingthe new Cloud Scheduler quick setup method.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "You can automatically see the New Meeting Request button on all eligible contact, lead, and personaccount detail pages.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Meeting organizers can not use Cloud Scheduler to request meetings with customers, and havecustomers select preferred times before confirming the meeting.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "It is available in Group, Professional, Enterprise, Unlimited, and Developer Editions only.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 37,
+    "text": "What is the maximum length of a Text Area?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "255",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "3200",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "32000",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "2550",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 38,
+    "text": "Sales reps at AW Computing need assistance from product managers when sellingcertain products. Product managers do not have access to Opportunities but need to gainaccess when assisting on a specific deal. How can the system administrator accomplish this?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Enable account teams and allow users to add the product manager.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Enable sales teams and allow users to add the product manager.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Notify the product manager using opportunity update reminders.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Use similar opportunities to show opportunities related to the product manager.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 39,
+    "text": "Identify the maximum number of leads / contacts that you can add from a report at one time usingIntegrated Campaign Builder:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "25000",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "100000",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "75000",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "50000",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 40,
+    "text": "If Field Level Security prevents a user from viewing the Credit Card field on the Opportunity record,the user will also be prevented from seeing this field.",
+    "obs": "(choose all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "In a related list",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "In list views",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "All",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "In reports",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "In search results",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 6,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 41,
+    "text": "Which of the following are standard Salesforce Objects?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Ticket",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Opportunity Product",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Contract",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Pricebook",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 42,
+    "text": "When are data Validation Rules enforced?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Upon editing a field",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Upon saving a record",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Upon closing the record",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Upon opening the record",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 41,
+    "text": "Which of the following relationships are correct?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Leads and Contacts can be associated to several Campaigns, but an Opportunity can have onlyone Campaign.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Lead, Contacts, and Opportunities can be associated to only one Campaign.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Leads and Opportunities can be associated to several campaigns, but Contacts can only have oneCampaign.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 42,
+    "text": "An object has an Organization-Wide Default set to Public Read/Write. Which feature(s) can be usedto restrict access to that object?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Record Type",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Page Layout",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "None of the above",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Role Hierarchy",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Profile",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 43,
+    "text": "Account team is a set of users that normally work together on _________?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Contacts",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Leads",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Accounts",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Opportunities",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Cases",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 44,
+    "text": "Which settings can be modified in the Salesforce user interface?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Enhanced list views.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Language settings.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Time zone settings.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Hover details",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Enable Printable List Views",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 45,
+    "text": "Which Service Cloud and Service Cloud Console Enhancements are Automatically visible to allAdministrators without any setup required?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Additional Case Article Fields Available for Reports and the Articles Related List.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Salesforce Knowledge Sidebar for the Service Cloud Console (Contextual Knowledge).",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Global Search for the Service Cloud Console.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Salesforce Knowledge Article Number.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Multiple Languages for Salesforce Knowledge.",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 46,
+    "text": "All of the following are true about Opportunity Pipeline and Forecast reporting EXCEPT:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Pipeline reports may be overridden.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Pipeline reports may include omitted opportunities from the forecast.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Opportunity stages may be used to determine the forecast category of an opportunity.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Forecasts may be overridden.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 47,
+    "text": "The system administrator needs to ensure that all Leads coming from the website are assigned awebsite lead queue, that all Leads for a recent trade show are assigned to Matt Wilson and all otherleads are assigned to Phil Smith. The system administrator will.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Create 1 assignment rule with multiple criteria entries.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Create 3 assignment rules.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Create an assignment rule and 2 workflow rules.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Use workflow rules to accomplish this.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 48,
+    "text": "Which Type of Reports can't be used to create groups of data or charts?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Matrix",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Tabular",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Summary",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 49,
+    "text": "Identify the statement that correctly defines data validation.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Data validation ensures the integrity of data when data is imported in SF.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Data validation ensures the integrity of data when data is exported in SF.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Data validation ensures the integrity of data before its saved in SF.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Data validation ensures the integrity of data after its saved in SF.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 50,
+    "text": "What is Salesforce.com Partner Portal?",
+    "obs": "(Choose 2 answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "All",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Data goes into your Salesforce objects through a third party site.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Create Interactive Communities.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Use your company logo on a Partner Site.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Develop Partner Application on Force.com Platform.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 51,
+    "text": "The value in a Custom Field called Salary is 50,000. What would the formula, ISNUMBER (Salary_c),return:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "50000",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Depends on the Users Locale.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 52,
+    "text": "You can not use the browser's print function to print reports.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 53,
+    "text": "When controlling and dependent fields are available in Connect Offline...",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "You can only edit the dependent field.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "You will be able to edit one, with it automatically updating the other.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "You can only edit the controlling field.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "The logic between them is not available.",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 54,
+    "text": "How many workflow rules can you create per entity?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
@@ -211,252 +1888,232 @@
         },
         {
             "id": 3,
-            "text": "10",
+            "text": "25",
             "is_selected": false,
-            "is_ok": false
+            "is_ok": true
         },
         {
             "id": 4,
-            "text": "5",
+            "text": "15",
             "is_selected": false,
-            "is_ok": true
+            "is_ok": false
         }
     ]
 },
 {
-    "id": 3,
-    "text": "How do you delete a user?",
+    "id": 55,
+    "text": "Who can select the \"sharing\" button on Account and Opportunity records?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "You cannot delete a Salesforce User",
+            "text": "The Record Owner, a User above the Record Owner, and the System Administrator.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 2,
-            "text": "Going to their profile and clicking the delete button",
+            "text": "The Record Owner and System Administrator.",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 3,
-            "text": "Deleting all information from their profile",
+            "text": "The Record Owner, System Administrator, and a User shared to the record.",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 4,
-            "text": "Using an external application",
+            "text": "The Record Owner, a User shared to the record, and any User above the Record Owner in theRole Hierarchy.",
             "is_selected": false,
             "is_ok": false
         }
     ]
 },
 {
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
+    "id": 56,
+    "text": "Which is a capability of a campaign?",
+    "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "On the results page of a Contact report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
+            "text": "Track the number of business accounts related to a campaign.",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
+            "text": "Convert leads to contacts from the campaign record.",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
+            "text": "Update the campaign member status of a lead using the manage campaign members feature.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
+            "text": "Add campaign members to other related campaigns using an Apex trigger.",
             "is_selected": false,
-            "is_ok": false
+            "is_ok": true
         }
     ]
 },
 {
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
+    "id": 57,
+    "text": "Which two should a system administrator consider before importing a set of records intoSalesforce?",
+    "obs": "(Choose two answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The import file should include a record owner for each record.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Currency field values will default to the personal currency of the record owner.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Validation rules are not triggered when importing data using the import wizard.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Data should be de-duplicated in the import file prior to import.",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 58,
+    "text": "How many fields can be enabled for tracking on a custom Object?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
+            "text": "40",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "10",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
             "text": "20",
             "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
+            "is_ok": true
         },
         {
             "id": 4,
-            "text": "5",
+            "text": "30",
             "is_selected": false,
-            "is_ok": true
+            "is_ok": false
         }
     ]
 },
 {
-    "id": 3,
-    "text": "How do you delete a user?",
+    "id": 59,
+    "text": "All of the following may be uploaded to the AppExchange Directory EXCEPT:",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "You cannot delete a Salesforce User",
+            "text": "Custom Assignment Rules",
             "is_selected": false,
-            "is_ok": true
+            "is_ok": false
         },
         {
             "id": 2,
-            "text": "Going to their profile and clicking the delete button",
+            "text": "Custom Tabs",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 3,
-            "text": "Deleting all information from their profile",
+            "text": "Custom Fields on Custom Objects",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 4,
-            "text": "Using an external application",
+            "text": "Custom Fields on Standard Objects",
             "is_selected": false,
-            "is_ok": false
+            "is_ok": true
         }
     ]
 },
 {
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
+    "id": 60,
+    "text": "Salesforce.com archives older activities according to which of the following conditions:",
+    "obs": "",
     "single_type": false,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "On the results page of a Contact report.",
+            "text": "Closed tasks without a due date that were created more than 365 days ago.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 2,
-            "text": "On the detail page for a Lead record.",
+            "text": "Closed tasks with a due date greater than 365 days old.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 3,
-            "text": "On the detail page for an Opportunity record.",
+            "text": "Events with a due date greater than 365 days old.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Closed Events 180 days old.",
             "is_selected": false,
             "is_ok": false
         },
         {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
             "id": 5,
-            "text": "On the detail page for a Contact record",
+            "text": "Open tasks with a due date greater than 365 days old.",
             "is_selected": false,
-            "is_ok": true
+            "is_ok": false
         }
     ]
 },
 {
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
+    "id": 61,
+    "text": "To email a report to other users, the report must be in a public folder with access granted to theother users?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
@@ -476,2067 +2133,730 @@
     ]
 },
 {
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
+    "id": 62,
+    "text": "Public groups can be any combination of other public groups, users, roles and ________.",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
+            "text": "Managers",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
+            "text": "Roles & subordinates",
             "is_selected": false,
             "is_ok": true
         },
         {
+            "id": 3,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
             "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
+            "text": "Profile",
             "is_selected": false,
             "is_ok": false
         }
     ]
 },
 {
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
+    "id": 63,
+    "text": "All of the following are true about Default Sales Teams EXCEPT:",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
+            "text": "Default Sales Teams may be added automatically to an opportunity.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Default Sales Teams are configured on a user record.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Default Sales Teams may be added manually to an opportunity record.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Default Sales Teams may be added manually to an account record.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 64,
+    "text": "Do Validation rules get enforced on the Lead Conversion?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "No",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Yes",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 65,
+    "text": "Which of the following can be used to control field-level access to give viewing rights to a user'sprofile?",
+    "obs": "(Select one)",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Role Hierarchy",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Field Level Security",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Permission Set",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Profile",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 66,
+    "text": "What can a system administrator use to provide a group of users with access to a custom app?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Sharing rules",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Profiles",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Page layouts",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Public groups",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 67,
+    "text": "Which of the following settings directly affects Date fields to display as MM/DD/YYYY?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Language",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Default Currency",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Local",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Time Zone",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 68,
+    "text": "I can merge 3 records at a time in SFDC to clean up dupe.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 69,
+    "text": "You must meet the following prerequisites before enabling territory management?",
+    "obs": "(Choose 2 answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Follow the steps in the Deploying Territory Management Guide to prepare your organization forterritory management.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Your organization must be using customizable forecasting.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "You must have the Territory Manager Profile.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "You must have the Marketing User Profile.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 70,
+    "text": "A new field-based salesperson has joined WidgetsXYZ and started using Salesforce for the firsttime. You are the administrator at WidgetsXYZ, and the salesperson is telling you that they are always prompted to activate their laptop and always use the same browser.How would you respond?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Verify that Login hour restrictions for Salesforce have been configured.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Verify that browser cookies are being stored on the salesperson's laptop correctly.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Verify that the Trusted IP Ranges for Salesforce have been configured correctly.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Explain to the salesperson that this is normal behavior and that the laptop is responding asexpected.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 71,
+    "text": "What is the maximum number of Components that can be made available on a dashboard?",
+    "obs": "(Select one)",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "12",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "9",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "30",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
             "text": "20",
             "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
             "is_ok": true
         }
     ]
 },
 {
-    "id": 3,
-    "text": "How do you delete a user?",
+    "id": 72,
+    "text": "When a case is deleted, following are deleted except:",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "You cannot delete a Salesforce User",
+            "text": "Solution",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 2,
-            "text": "Going to their profile and clicking the delete button",
+            "text": "Case comments",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 3,
-            "text": "Deleting all information from their profile",
+            "text": "Case activities",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 4,
-            "text": "Using an external application",
+            "text": "Case tasks",
             "is_selected": false,
             "is_ok": false
         }
     ]
 },
 {
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
+    "id": 73,
+    "text": "Marketing and Sales users at Universal Containers would like more visibility into Lead and Contactparticipation in this years Trade Show. How would an Administrator build this into the application?",
+    "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "On the results page of a Contact report.",
+            "text": "Customize the campaign member related list on the lead or contact object.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
+            "text": "Create Cross-object formula fields to display campaign member record details on a lead or acontact record.",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
+            "text": "Alert lead and contact owners with workflow when a prospective customer regsiters for the event.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
+            "text": "Create Cross-object formula fields to display lead or contact record details on a campaign memberrecord.",
             "is_selected": false,
             "is_ok": false
         }
     ]
 },
 {
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
+    "id": 74,
+    "text": "Converted leads can be accessed in Salesforce CRM by carrying out which of the following?",
+    "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "On the results page of a Contact report.",
+            "text": "Create a converted lead report.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 2,
-            "text": "On the detail page for a Lead record.",
+            "text": "Create a converted lead view in the Contacts Tab.",
             "is_selected": false,
-            "is_ok": true
+            "is_ok": false
         },
         {
             "id": 3,
-            "text": "On the detail page for an Opportunity record.",
+            "text": "Create a converted lead view in the Leads Tab.",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 4,
-            "text": "On the results page of a Lead report.",
+            "text": "Create a converted lead view in the Accounts Tab.",
             "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
+            "is_ok": false
         }
     ]
 },
 {
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
+    "id": 75,
+    "text": "You would like visitors to your public site to be able to view knowledge base content. What do youneed to do to enable this?",
+    "obs": "(Choose 1 answer)",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "True",
+            "text": "Install an app from the App Exchange.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 2,
-            "text": "False",
+            "text": "Enable external knowledge access in profile settings.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Build a custom solution to expose knowledge content to a public site.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Nothing. this is enabled by default.",
             "is_selected": false,
             "is_ok": false
         }
     ]
 },
 {
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
+    "id": 76,
+    "text": "Which graphs rely on grand total for dashboards?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
+            "text": "Table and line",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
+            "text": "Table and gauge",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
+            "text": "Metric and table",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 4,
-            "text": "5",
+            "text": "Metric and gauge",
             "is_selected": false,
             "is_ok": true
         }
     ]
 },
 {
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
+    "id": 77,
+    "text": "Which of the following password related actions can be carried out by a System Administrator?",
+    "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "On the results page of a Contact report.",
+            "text": "Prevent users from re-using their last password if it expires.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 2,
-            "text": "On the detail page for a Lead record.",
+            "text": "Enforce that passwords containing alpha and numeric characters must be entered by users.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 3,
-            "text": "On the detail page for an Opportunity record.",
+            "text": "Set passwords to expire after a certain number of days.",
             "is_selected": false,
-            "is_ok": false
+            "is_ok": true
         },
         {
             "id": 4,
-            "text": "On the results page of a Lead report.",
+            "text": "Assign a given password to multiple users by profile type.",
             "is_selected": false,
-            "is_ok": true
+            "is_ok": false
         },
         {
             "id": 5,
-            "text": "On the detail page for a Contact record",
+            "text": "Set the password lockout period to forever.",
             "is_selected": false,
             "is_ok": true
         }
     ]
 },
 {
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
+    "id": 78,
+    "text": "What is Force.com Platform?",
+    "obs": "(Choose 3 answers)",
     "single_type": false,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "On the results page of a Contact report.",
+            "text": "Group standard and custom tabs into new custom applications.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
+            "text": "Point-and-click customization tool.",
             "is_selected": false,
             "is_ok": false
         },
         {
+            "id": 3,
+            "text": "Customize standard applications provided by Salesforce.com or build their own ondemandapplications.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
             "id": 4,
-            "text": "On the results page of a Lead report.",
+            "text": "Customize, integrate and create enterprise applications as a service and without software.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 5,
-            "text": "On the detail page for a Contact record",
+            "text": "Modify the applications to meet your needs – (No- Coding).",
             "is_selected": false,
-            "is_ok": true
+            "is_ok": false
         }
     ]
 },
 {
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
+    "id": 79,
+    "text": "If the Org Wide Default is Public Read/Write, what feature in Salesforce is needed to restrict accessto that object?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "True",
+            "text": "Role Hierarchy",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Page Layout",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Record Type",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Profile",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 80,
+    "text": "An S-Control may be all of the following EXCEPT:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Snippet",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "URL",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "XML",
             "is_selected": false,
             "is_ok": true
         },
         {
-            "id": 2,
+            "id": 4,
+            "text": "HTML",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 81,
+    "text": "Workflow Tasks are NOT tracked in the Activity History and can be reported on MMM?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
             "text": "False",
             "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
             "is_ok": false
         }
     ]
 },
 {
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
+    "id": 82,
+    "text": "are words or short phrases that users can associate with most Salesforce.com records to describeand organize their data in a personalized way?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
+            "text": "Home Pagelayout",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
+            "text": "Dashboards",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
+            "text": "Apps",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
-    "single_type": false,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "On the results page of a Contact report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
+            "text": "Tags",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 5,
-            "text": "On the detail page for a Contact record",
+            "text": "Views",
             "is_selected": false,
-            "is_ok": true
+            "is_ok": false
         }
     ]
 },
 {
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
+    "id": 83,
+    "text": "How long does a backup data export remain on Salesforce CRM before it is automatically deleted?",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
+            "text": "36 hours",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
-    "single_type": false,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "On the results page of a Contact report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "On the detail page for a Lead record.",
+            "text": "24 hours",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 3,
-            "text": "On the detail page for an Opportunity record.",
+            "text": "12 hours",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
-    "single_type": false,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "On the results page of a Contact report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
-    "single_type": false,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "On the results page of a Contact report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
-    "single_type": false,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "On the results page of a Contact report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
-    "single_type": false,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "On the results page of a Contact report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
-    "single_type": false,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "On the results page of a Contact report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
-    "single_type": false,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "On the results page of a Contact report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 2,
-    "text": "How many app exchange apps can you install in PE?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "20",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "10",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "5",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 3,
-    "text": "How do you delete a user?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "You cannot delete a Salesforce User",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Going to their profile and clicking the delete button",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Deleting all information from their profile",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Using an external application",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 4,
-    "text": "Where will you find an Add to Campaign button in Salesforce CRM?",
-    "single_type": false,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "On the results page of a Contact report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "On the detail page for a Lead record.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 3,
-            "text": "On the detail page for an Opportunity record.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "On the results page of a Lead report.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 5,
-            "text": "On the detail page for a Contact record",
-            "is_selected": false,
-            "is_ok": true
-        }
-    ]
-},
-{
-    "id": 5,
-    "text": "Running User concept in Dashboard allows users to view Data which normally they can not view?",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "True",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "False",
+            "text": "48 hours",
             "is_selected": false,
             "is_ok": false
         }

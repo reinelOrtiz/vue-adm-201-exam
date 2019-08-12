@@ -6,8 +6,9 @@
       <div class="form-group">        
         <label for="questionsNumber">Número de preguntas</label>
         <select id="questionsNumber" class="form-control" v-model="numberOfQuestions" required>
+          <option>25</option>
           <option>50</option>
-          <option>100</option>
+          <option>75</option>
         </select>
         <br>
         <button type="submit" class="btn btn-primary">Cargar!</button>

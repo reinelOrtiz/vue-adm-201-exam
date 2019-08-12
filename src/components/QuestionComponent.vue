@@ -7,11 +7,15 @@
             title="Salesforce ADM-201 Exam" subtitle=""><hr>
 
             <tab-content>
-              Este prueba contiene {{numberOfQuestions}} preguntas.
+              <p>Este prueba contiene {{numberOfQuestions}} preguntas. Encontrará preguntas de selección múltiple y de única respuesta (no todas estan marcadas por el tipo), 
+                  tendrá que seleccionar la mejor opción u opciones según corresponda de acuerdo a la pregunta. Al finalizar se mostrará el resumen de la prueba y podrá navegar
+                  a través de las preguntas para verificar sus respuestas</p>
+                  <p>Nota: No intente refrescar o recargar la página, si lo hace será redireccionado al página de inicio para seleccionar la cantidad de preguntas e iniciar nuevamente.</p>
+                  <h4>good luck!</h4>
             </tab-content>
 
             <tab-content v-for="(question, index) in bdExamTest" :key="index" class="text-left">
-                <h5>{{question.text}}</h5><br>
+                <h5>{{question.text}}</h5><span>{{question.obs}}<br></span><br>
                 <div v-for="(answer, index) in question.answers" :key="index">
 
                     <div v-if="question.single_type" class="custom-control custom-radio">
@@ -125,7 +129,7 @@
         created() {            
             let numberOfQuestions = `${this.$route.params.numberOfQuestions}`;
             if(numberOfQuestions === 'undefined'){
-                alert("Se requiere la cantidad de preguntas a cargar.");
+                alert("Se requiere la cantidad de preguntas a cargar; será redireccionado a la página de incio.");
                 this.$router.push({name: 'AdmExamInitComponent'});            
             } else {
                 this.getQuestions(numberOfQuestions);
