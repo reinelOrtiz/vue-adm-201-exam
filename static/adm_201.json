@@ -1346,35 +1346,29 @@
 },
 {
     "id": 41,
-    "text": "Which of the following are standard Salesforce Objects?",
+    "text": "Which of the following relationships are correct?",
     "obs": "",
-    "single_type": false,
+    "single_type": true,
     "answ_selected": 0,
     "answered": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "Ticket",
+            "text": "Leads and Contacts can be associated to several Campaigns, but an Opportunity can have only one Campaign.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Lead, Contacts, and Opportunities can be associated to only one Campaign.",
             "is_selected": false,
             "is_ok": false
         },
         {
-            "id": 2,
-            "text": "Opportunity Product",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
             "id": 3,
-            "text": "Contract",
+            "text": "Leads and Opportunities can be associated to several campaigns, but Contacts can only have one Campaign.",
             "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "Pricebook",
-            "is_selected": false,
-            "is_ok": true
+            "is_ok": false
         }
     ]
 },
@@ -1409,74 +1403,6 @@
             "text": "Upon opening the record",
             "is_selected": false,
             "is_ok": false
-        }
-    ]
-},
-{
-    "id": 41,
-    "text": "Which of the following relationships are correct?",
-    "obs": "",
-    "single_type": true,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "Leads and Contacts can be associated to several Campaigns, but an Opportunity can have only one Campaign.",
-            "is_selected": false,
-            "is_ok": true
-        },
-        {
-            "id": 2,
-            "text": "Lead, Contacts, and Opportunities can be associated to only one Campaign.",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "Leads and Opportunities can be associated to several campaigns, but Contacts can only have one Campaign.",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 42,
-    "text": "An object has an Organization-Wide Default set to Public Read/Write. Which feature(s) can be usedto restrict access to that object?",
-    "obs": "(Select all that apply)",
-    "single_type": false,
-    "answ_selected": 0,
-    "answered": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "Record Type",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "Page Layout",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "None",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "Role Hierarchy",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 5,
-            "text": "Profile",
-            "is_selected": false,
-            "is_ok": true
         }
     ]
 },
@@ -2859,6 +2785,46 @@
             "text": "48 hours",
             "is_selected": false,
             "is_ok": false
+        }
+    ]
+},
+{
+    "id": 84,
+    "text": "An object has an Organization-Wide Default set to Public Read\/Write. Which feature(s) can be usedto restrict access to that object?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Record Type",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Page Layout",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Role Hierarchy",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Profile",
+            "is_selected": false,
+            "is_ok": true
         }
     ]
 }
