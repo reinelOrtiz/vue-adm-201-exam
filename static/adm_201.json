@@ -695,7 +695,7 @@
 {
     "id": 22,
     "text": "Name one place where inline Editing is not currently possible.",
-    "obs": "(Choose all that aply)",
+    "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
     "answered": false,
@@ -2150,7 +2150,7 @@
 },
 {
     "id": 65,
-    "text": "Which of the following can be used to control field-level access to give viewing rights to a user'sprofile?",
+    "text": "Which of the following can be used to control field-level access to give viewing rights to a user's profile?",
     "obs": "(Select one)",
     "single_type": true,
     "answ_selected": 0,
@@ -2790,7 +2790,7 @@
 },
 {
     "id": 84,
-    "text": "An object has an Organization-Wide Default set to Public Read\/Write. Which feature(s) can be usedto restrict access to that object?",
+    "text": "An object has an Organization-Wide Default set to Public Read\/Write. Which feature(s) can be used to restrict access to that object?",
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
@@ -2825,6 +2825,1860 @@
             "text": "Profile",
             "is_selected": false,
             "is_ok": true
+        }
+    ]
+},
+{
+    "id": 85,
+    "text": "A Standard profile that has Standard User Permissions and can manage published solutions and solution categories",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Marketing Profile",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "System Administrator",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Marketing User",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Contract Manager",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Solution Manager",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 86,
+    "text": "Which of the following statements is true about person accounts in backup exports?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "If your organization uses person accounts and you’re importing contacts, person account records are included in the contact data.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "If your organization uses person accounts and you’re exporting contacts, person account records are included in the contact data. The export includes all fields from person accounts.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "If your organization uses person accounts and you’re exporting contacts, person account records are included in the contact data. However, the contact data only includes the fields shared by contacts and person accounts.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "If your organization uses person accounts and you’re exporting contacts, person account records are not included in the contact data.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 87,
+    "text": "Once you define a custom fiscal year structure, your company can not return to the standard fiscal year calendar",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 88,
+    "text": "What can an email template contain?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Merge Field",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Macro",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Text",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Attached File",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 89,
+    "text": "The automated case user will be listed on the case history for all actions that are system defined, including",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "When a case is automatically assigned using assignment rules.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "When a Workflow is Triggered.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "When a case is created online via Web-to-Case.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "When a case is escalated.",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 90,
+    "text": "Salesforce supports the following report formats except which one?",
+    "obs": "(Choose 1 answer)",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Tabular",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Joined",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Custom",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Matrix",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 91,
+    "text": "What does the dashboard snapshot on the Home Page display?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Only the dashboard determined by the System Administrator.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "The first two rows of any of your available dashboards.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "You cannot display a dashboard on the Home Page.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "The first row of any available dashboards.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "The Complete Dashboard set by the User himself.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 92,
+    "text": "Which of the following can be used to associate different campaigns with one another?",
+    "obs": "(Choose 1 answer)",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Manage Members button",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Campaign Status field",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "View Hierarchy link",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Parent Campaign field",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 93,
+    "text": "If a profile does not have access to an application, that profile will also not have access to the tabs and objects of that application",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 94,
+    "text": "Auto Response rules work on which objects?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Accounts and Opportunity",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Leads and Cases",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Account and Cases",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Leads and Accounts",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 95,
+    "text": "What type of report cannot be used to populate a chart in a dashboard?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Tabular",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Summary",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Matrix",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 96,
+    "text": "Which of them is NOT a Profile Component?",
+    "obs": "(Select all which are applicable)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Page layouts",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "UI Settings",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Tab Visibility",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Tag Settings",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Access to Applications",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 6,
+            "text": "Field-Level Security",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 7,
+            "text": "Hours and IP addresses",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 8,
+            "text": "Permissions",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 9,
+            "text": "Manage Currencies",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 10,
+            "text": "Record Types Access",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 97,
+    "text": "When are Formula Fields recalculated?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "After Edits / Save",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Every 15 Minutes",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Nightly",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Calculated automatically",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 98,
+    "text": "Which of the following is true that can cause data loss when an existing custom field is changed",
+    "obs": "(Check all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Changing to or from type Date or Date\/Time.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Changing to number from Percent.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Changing to one Currency from any other currency type.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Changing to Number from any other type.",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 99,
+    "text": "Which is a consideration when creating a drill-to-detail dashboard component?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The source report must be grouped by record name, record owner, or feed post.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "The source report must be stored in the drill-to-detail folder.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "The dashboard component type must be a gauge.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Drill-to-detail must be enabled on the custom report type.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 100,
+    "text": "Users with which Permission can install or uninstall AppExchange packages from the AppExchange",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "View AppExchange Packages",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "List AppExchange Packages",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Download AppExchange Packages",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Visit AppExchange Packages",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 101,
+    "text": "What is NOT true regarding Salesforce Knowledge and Case Management?",
+    "obs": "(Choose 1 answer)",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Articles attached to a case can be emailed to the customer.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "If Salesforce Knowledge is enabled, suggested articles are automatically added to a case when it is saved.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Agents can use the 'Find Articles' button to search the Knowledge Base.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "When a case is closed, articles can be created and added to the Knowledge base.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 102,
+    "text": "What is the purpose API Token field on the User object?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Displays the users API token.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Enables users to receive an API token.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Indicates whether an API token has ever been reset.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Disabled users to receive an API token.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 103,
+    "text": "The finance department at Universal Rentals wants the Salesforce administrator to implement manager approvals for Paid Time Off requests. What is true regarding approval process capabilities?",
+    "obs": "(Choose 2 answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "If enabled. an approver can receive and reply to approval requests via email.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Approval requests can only be assigned to users.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Approval requests can be sent via Chatter for any standard or custom object that has been enabled for feed tracking.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Records are always locked for all users during an approval process.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 104,
+    "text": "Which of the following does a Profile control",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Read, Create, Edit, and Delete permissions",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Sharing rules",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Username and Password",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Role level access",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 105,
+    "text": "Which statements are correct when initiating an approval process?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Approval processes show an error message if the record does not meet the entry criteria.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Approval processes can be set to automatically filter which users are initially involved with the approval process.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Approval processes show a warning message showing the entry criteria if the record does not meet the entry criteria.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Approval processes can be set to allow users to choose a queue to send the approval to.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Approval processes can be set to allow users to choose a user to send the approval to.",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 106,
+    "text": "For each profile, you can set the hours when users can log in and the IP addresses from which they can log in.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 107,
+    "text": "Which of the following does a permission set control?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Field permissions",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Record type",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Login hours",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Tab settings",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Page layout assignments",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 108,
+    "text": "How many Roll Up summary fields can be created in the enterprise Edition on a Custom Object?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "30",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "20",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "10",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "No restriction on no. of Fields",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 109,
+    "text": "Which data import facility can be used to import 25,000 case records into Salesforce",
+    "obs": "(Select all that apply)",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Data Import Wizard",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "None of the above",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Data Loader",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Individual import wizard for the Case object",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 110,
+    "text": "Is it possible to share a custom object record manually",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 111,
+    "text": "Custom lead fields can be mapped to which sets of objects in salesforce.com",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Account, Contact, or Opportunity",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Account, Contact, Opportunity, or Campaigns",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Contact or Opportunity Only",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Account or Contact Only",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 112,
+    "text": "What are the ways leads can be captured with Salesforce",
+    "obs": "(Choose two answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Email to Lead",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Lead Assignment",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Web to Lead",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Lead Import",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 113,
+    "text": "What are the various apps in which Salesforce 1 can be accessed?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Using a desktop browser application",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Using a mobile browser app",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Using a Salesforce CRM app",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Using a downloadable app",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 114,
+    "text": "If the lead has a record type, the default record type of the new owner is assigned to records created during lead conversion",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 115,
+    "text": "If Field Level Security prevents a user from viewing the Credit Card field on the Opportunity record, the user will also be prevented from seeing this field.",
+    "obs": "(choose all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "In a related list",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "In list views",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "In reports",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "In search results",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "All of the above",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 6,
+            "text": "None of the above",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 116,
+    "text": "Deleting a lead from a campaign does not delete the lead itself, but it is no longer a campaign member",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 117,
+    "text": "Data Validation rules is not supported in which Salesforce edition",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Professional",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Group",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Unlimited",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Contact Manager",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Developer",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 6,
+            "text": "All Editions are supported",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 118,
+    "text": "How does an agent submit an article for publishing?",
+    "obs": "(Choose 3 answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Publish at-will, with \"Manage Articles\" profile permission",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Publish an article to the solution category",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Submit an article upon closing a case",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Promote an Answer for consideration",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Re-assign an article to the publishing queue",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 119,
+    "text": "Can a user create his or her own Default Sales Team",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Yes",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "No",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 120,
+    "text": "Which of the following will not bypass Identity Confirmation?",
+    "obs": "(Select one)",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The user has activated this computer before and has a stored activation cookie.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "The user’s profile has IP login restrictions enabled.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "The user is logging in from an IP address within the list of trusted networks.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "The user’s record has the \"Bypass User Identity Confirmation\" checkbox enabled.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "The user has logged into Salesforce previously from their current IP address.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 121,
+    "text": "Is it possible for a Page layout to be associated with a Record Type",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 122,
+    "text": "Which statements are correct during an approval process?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "During an approval process, approvers can view approval requests on their Salesforce homepage.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Approvers can only access an approval page from within the Salesforce application.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "During an approval process, approvers can reassign approval requests.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "During an approval process, the record is always locked for all users.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "If enabled and a user is set, an approver's delegate can reassign approval requests.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 123,
+    "text": "Can an administrator change the profile settings of the Standard Solution Manager profile?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Yes",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Depends on the Setting of the Administrator profile.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "No",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 124,
+    "text": "Which one is the following is a salesforce.com definition for an opportunity?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Any individual or influencer associated with an account.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "An organization, individual or company involved with your business such as customers, competitors and partners.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Any person, organization or company that may be interested in your products and services, not yet customers.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Any potential revenue-generating event i.e. \"sales deal\".",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 125,
+    "text": "What is Not True About Formulas Select the correct choice?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "You cannot use Case statement in a Formula Field.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Can reference standard, custom, or other formula fields.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Fields that are used in formulas cannot be deleted.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Formulas cannot reference themselves.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 126,
+    "text": "Which of the following can be used to control record-level access?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Profile",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Permission Sets",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Organization-Wide Defaults",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Sharing Rules",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Role Hierarchy",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 127,
+    "text": "Which is a capability of the new Service Cloud console?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "It allows agents to view key record information in the highlights panel.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "It preserves the context of calls using primary tabs and subtabs.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "It provides data visibility by combining a list view and related records on one screen.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "It allows agents to take notes in an interaction log while in a call.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "It allows access to data by opening each record in a new window.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 128,
+    "text": "Time-Dependent Workflow – Maximum Triggers Allowed Per Rule:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Maximum of 40 time triggers per rule.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Maximum of 10 time triggers per rule.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Maximum of 50 time triggers per rule.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Maximum of 20 time triggers per rule.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 129,
+    "text": "Workflow rule can only be triggered when a record is created.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 130,
+    "text": "Which file types can you use when exporting reports?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "You can not export a report. You can only email it.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Excel (.xls)",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Comma Delimited (.csv)",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "PDF",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 131,
+    "text": "Which of the following are true about Web-to-Lead:",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Salesforce CRM runs field validation rules before creating records.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "The format for date and currency fields captured online is taken from the users browser settings.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "All required fields must have a value before a record can be created.",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 132,
+    "text": "Organization-Wide Default Sharing Rule for Calendar Access Default is as Follows:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Show Details",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Show Details and Add Events",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Hide Details and Add Events",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Hide Details",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 133,
+    "text": "This helps you manage the complete lifecycle of customer service, from logging cases to suggesting and delivering solutions across multiple channels, including Web self-service and live agent support.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Ideas",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Sales Cloud2",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Service Cloud2",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Sales Cloud",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 6,
+            "text": "Community",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 134,
+    "text": "How many objects may be imported or updated using the Data Loader?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "1",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "2",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "3",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "4",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "5",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 6,
+            "text": "6",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 135,
+    "text": "What is the best way to execute an email campaign?",
+    "obs": "(Choose 1 answer)",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Export the campaign member list and do a bulk email.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Use a third party email application in the AppExchange.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Use the mass email functionality and reference the Campaign ID.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Email campaigns should not be recorded in Salesforce.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 136,
+    "text": "Which of the following are capabilities of Salesforce Files",
+    "obs": "(Choose 3 answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Set 'Viewer' or 'Editor' access for files shared with people",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "A file can be synced to a folder in the Salesforce files directory",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "A file can be shared with a group only if it is public",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Files can be shared in Chatter with a content library",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Files can be shared from a Private library with Chatter",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 137,
+    "text": "IF(ISPICKVAL(picklist_field)) has the same output as:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "CASE(\"picklist_field\")",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Picklist_field(VALUE)",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "VAL(picklist_field)",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "CASE(picklist_field)",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 138,
+    "text": "What can be reviewed using the process visualizer",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "answered": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Support Processes",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Approval Processes",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Workflow Rules",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Sales Processes",
+            "is_selected": false,
+            "is_ok": false
         }
     ]
 }
