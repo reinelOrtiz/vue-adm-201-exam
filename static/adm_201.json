@@ -3912,7 +3912,7 @@
 },
 {
     "id": 117,
-    "text": "Data Validation rules is not supported in which Salesforce edition",
+    "text": "Data Validation rules is not supported in which Salesforce edition.",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
