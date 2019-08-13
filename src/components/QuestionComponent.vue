@@ -25,7 +25,7 @@
             <tab-content v-for="(question, index) in bdExamTest" :key="index" class="text-left"
                 :before-change="() => validateStep(question)">
 
-                <h5>{{question.text}}</h5><span>{{question.obs}}<br></span><br>
+                <h5>{{question.text}}</h5><span v-if="question.obs !== ''">{{question.obs}}<br></span><br>
                 <div v-for="(answer, index) in question.answers" :key="index">
 
                     <div v-if="question.single_type" class="custom-control custom-radio">

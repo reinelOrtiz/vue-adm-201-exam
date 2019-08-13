@@ -1,6 +1,6 @@
 [{
     "id": 1,
-    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunityto a date in the past. What will happen if a user attempts to save an opportunity record that has aClose Date from last year?",
+    "text": "A validation rule has been created to ensure that users do not set the Close Date of an opportunity to a date in the past. What will happen if a user attempts to save an opportunity record that has a Close Date from last year?",
     "obs": "(Select One)",
     "single_type": true,
     "answ_selected": 0,
@@ -8,25 +8,25 @@
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "The error message defined within the validation rule is displayed on the record after the record issaved",
+            "text": "The error message defined within the validation rule is displayed on the record after the record is saved",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 2,
-            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record issaved",
+            "text": "The error message defined within the validation rule is sent by e-mail to the user after the record is saved",
             "is_selected": false,
             "is_ok": false
         },
         {
             "id": 3,
-            "text": "The error message defined within the validation rule is displayed on the record and the record is notsaved",
+            "text": "The error message defined within the validation rule is displayed on the record and the record is not saved",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 4,
-            "text": "The error message defined within the validation rule is displayed on the record and the user isshown a confirmation screen to either continue or cancel the saving of the record",
+            "text": "The error message defined within the validation rule is displayed on the record and the user is shown a confirmation screen to either continue or cancel the saving of the record",
             "is_selected": false,
             "is_ok": false
         }
@@ -48,7 +48,7 @@
         },
         {
             "id": 2,
-            "text": "10",
+            "text": "15",
             "is_selected": false,
             "is_ok": false
         },
@@ -288,7 +288,7 @@
 },
 {
     "id": 10,
-    "text": "To minimize the number of sharing rules, use \"Roles and Subordinates\" over \"Roles\" wherepossible.",
+    "text": "To minimize the number of sharing rules, use \"Roles and Subordinates\" over \"Roles\" where possible.",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
@@ -346,7 +346,7 @@
 },
 {
     "id": 12,
-    "text": "If you change the data type of any custom field used for lead conversion, that lead field mappingwill be deleted:",
+    "text": "If you change the data type of any custom field used for lead conversion, that lead field mapping will be deleted:",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
@@ -418,7 +418,7 @@
         },
         {
             "id": 2,
-            "text": "The User is asked for a Choice; if he would like to choose New Organization Locale or his ownLocale",
+            "text": "The User is asked for a Choice; if he would like to choose New Organization Locale or his own Locale",
             "is_selected": false,
             "is_ok": false
         }
@@ -548,8 +548,8 @@
 },
 {
     "id": 18,
-    "text": "A project manager is leading a team project and would like to share project information and filesonly with the project team members. What Salesforce feature can support this requirement?",
-    "obs": "Choose 1 answer",
+    "text": "A project manager is leading a team project and would like to share project information and files only with the project team members. What Salesforce feature can support this requirement?",
+    "obs": "(Choose 1 answer)",
     "single_type": true,
     "answ_selected": 0,
     "answered": false,
@@ -569,7 +569,7 @@
         ,
         {
             "id": 3,
-            "text": "Create a public Chatter group. add the project team members. and then change the group accesslevel to private",
+            "text": "Create a public Chatter group add the project team members. and then change the group access level to private",
             "is_selected": false,
             "is_ok": false
         }
@@ -620,7 +620,7 @@
 },
 {
     "id": 20,
-    "text": "Which of the following special picklist fields are not available for record types because they’re usedexclusively for sales processes, lead processes, support processes, and solution processes",
+    "text": "Which of the following special picklist fields are not available for record types because they’re used exclusively for sales processes, lead processes, support processes, and solution processes",
     "obs": "(Select all the aply)",
     "single_type": false,
     "answ_selected": 0,
@@ -762,7 +762,7 @@
 },
 {
     "id": 24,
-    "text": "The system administrator was testing workflow rules and needs to delete pending timebased workflow actions. How can he/she do this?",
+    "text": "The system administrator was testing workflow rules and needs to delete pending time based workflow actions. How can he/she do this?",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
@@ -796,7 +796,7 @@
 },
 {
     "id": 25,
-    "text": "Sales representatives at Universal Containers need assistance from product managers whenselling certain products. Product managers do not have access to opportunities, but need to gainaccess when they are assisting with a specific deal. How can a system administrator accomplish this?",
+    "text": "Sales representatives at Universal Containers need assistance from product managers when selling certain products. Product managers do not have access to opportunities, but need to gain access when they are assisting with a specific deal. How can a system administrator accomplish this?",
     "obs": "(Choose one answer:)",
     "single_type": true,
     "answ_selected": 0,
@@ -1172,19 +1172,19 @@
         },
         {
             "id": 2,
-            "text": "Administrators can add or remove the New Meeting Request button on multiple page layouts usingthe new Cloud Scheduler quick setup method.",
+            "text": "Administrators can add or remove the New Meeting Request button on multiple page layouts using the new Cloud Scheduler quick setup method.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 3,
-            "text": "You can automatically see the New Meeting Request button on all eligible contact, lead, and personaccount detail pages.",
+            "text": "You can automatically see the New Meeting Request button on all eligible contact, lead, and person account detail pages.",
             "is_selected": false,
             "is_ok": true
         },
         {
             "id": 4,
-            "text": "Meeting organizers can not use Cloud Scheduler to request meetings with customers, and havecustomers select preferred times before confirming the meeting.",
+            "text": "Meeting organizers can not use Cloud Scheduler to request meetings with customers, and have customers select preferred times before confirming the meeting.",
             "is_selected": false,
             "is_ok": false
         },
@@ -1232,7 +1232,7 @@
 },
 {
     "id": 38,
-    "text": "Sales reps at AW Computing need assistance from product managers when sellingcertain products. Product managers do not have access to Opportunities but need to gainaccess when assisting on a specific deal. How can the system administrator accomplish this?",
+    "text": "Sales reps at AW Computing need assistance from product managers when sellingcertain products. Product managers do not have access to Opportunities but need to gain access when assisting on a specific deal. How can the system administrator accomplish this?",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
@@ -1266,7 +1266,7 @@
 },
 {
     "id": 39,
-    "text": "Identify the maximum number of leads / contacts that you can add from a report at one time usingIntegrated Campaign Builder:",
+    "text": "Identify the maximum number of leads / contacts that you can add from a report at one time using Integrated Campaign Builder:",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
@@ -1422,7 +1422,7 @@
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "Leads and Contacts can be associated to several Campaigns, but an Opportunity can have onlyone Campaign.",
+            "text": "Leads and Contacts can be associated to several Campaigns, but an Opportunity can have only one Campaign.",
             "is_selected": false,
             "is_ok": true
         },
@@ -1434,7 +1434,7 @@
         },
         {
             "id": 3,
-            "text": "Leads and Opportunities can be associated to several campaigns, but Contacts can only have oneCampaign.",
+            "text": "Leads and Opportunities can be associated to several campaigns, but Contacts can only have one Campaign.",
             "is_selected": false,
             "is_ok": false
         }
@@ -1462,7 +1462,7 @@
         },
         {
             "id": 3,
-            "text": "None of the above",
+            "text": "None",
             "is_selected": false,
             "is_ok": false
         },
@@ -1562,7 +1562,7 @@
 },
 {
     "id": 45,
-    "text": "Which Service Cloud and Service Cloud Console Enhancements are Automatically visible to allAdministrators without any setup required?",
+    "text": "Which Service Cloud and Service Cloud Console Enhancements are Automatically visible to all Administrators without any setup required?",
     "obs": "",
     "single_type": false,
     "answ_selected": 0,
@@ -1636,7 +1636,7 @@
 },
 {
     "id": 47,
-    "text": "The system administrator needs to ensure that all Leads coming from the website are assigned awebsite lead queue, that all Leads for a recent trade show are assigned to Matt Wilson and all otherleads are assigned to Phil Smith. The system administrator will.",
+    "text": "The system administrator needs to ensure that all Leads coming from the website are assigned awebsite lead queue, that all Leads for a recent trade show are assigned to Matt Wilson and all other leads are assigned to Phil Smith. The system administrator will.",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
@@ -1970,7 +1970,7 @@
 },
 {
     "id": 57,
-    "text": "Which two should a system administrator consider before importing a set of records intoSalesforce?",
+    "text": "Which two should a system administrator consider before importing a set of records into  Salesforce?",
     "obs": "(Choose two answers)",
     "single_type": false,
     "answ_selected": 0,
@@ -2112,7 +2112,7 @@
 },
 {
     "id": 61,
-    "text": "To email a report to other users, the report must be in a public folder with access granted to theother users?",
+    "text": "To email a report to other users, the report must be in a public folder with access granted to the other users?",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
@@ -2382,7 +2382,7 @@
 },
 {
     "id": 70,
-    "text": "A new field-based salesperson has joined WidgetsXYZ and started using Salesforce for the firsttime. You are the administrator at WidgetsXYZ, and the salesperson is telling you that they are always prompted to activate their laptop and always use the same browser.How would you respond?",
+    "text": "A new field-based salesperson has joined WidgetsXYZ and started using Salesforce for the first time. You are the administrator at WidgetsXYZ, and the salesperson is telling you that they are always prompted to activate their laptop and always use the same browser.How would you respond?",
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
@@ -2408,7 +2408,7 @@
         },
         {
             "id": 4,
-            "text": "Explain to the salesperson that this is normal behavior and that the laptop is responding asexpected.",
+            "text": "Explain to the salesperson that this is normal behavior and that the laptop is responding as expected.",
             "is_selected": false,
             "is_ok": false
         }
@@ -2484,7 +2484,7 @@
 },
 {
     "id": 73,
-    "text": "Marketing and Sales users at Universal Containers would like more visibility into Lead and Contactparticipation in this years Trade Show. How would an Administrator build this into the application?",
+    "text": "Marketing and Sales users at Universal Containers would like more visibility into Lead and Contact participation in this years Trade Show. How would an Administrator build this into the application?",
     "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
@@ -2510,7 +2510,7 @@
         },
         {
             "id": 4,
-            "text": "Create Cross-object formula fields to display lead or contact record details on a campaign memberrecord.",
+            "text": "Create Cross-object formula fields to display lead or contact record details on a campaign member record.",
             "is_selected": false,
             "is_ok": false
         }
@@ -2552,7 +2552,7 @@
 },
 {
     "id": 75,
-    "text": "You would like visitors to your public site to be able to view knowledge base content. What do youneed to do to enable this?",
+    "text": "You would like visitors to your public site to be able to view knowledge base content. What do you need to do to enable this?",
     "obs": "(Choose 1 answer)",
     "single_type": true,
     "answ_selected": 0,
@@ -2700,7 +2700,7 @@
 },
 {
     "id": 79,
-    "text": "If the Org Wide Default is Public Read/Write, what feature in Salesforce is needed to restrict accessto that object?",
+    "text": "If the Org Wide Default is Public Read/Write, what feature in Salesforce is needed to restrict access to that object?",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
@@ -2728,7 +2728,7 @@
             "id": 4,
             "text": "Profile",
             "is_selected": false,
-            "is_ok": false
+            "is_ok": true
         }
     ]
 },
@@ -2785,12 +2785,12 @@
             "text": "True",
             "is_selected": false,
             "is_ok": false
-        }
+        } 
     ]
 },
 {
     "id": 82,
-    "text": "are words or short phrases that users can associate with most Salesforce.com records to describeand organize their data in a personalized way?",
+    "text": "Are words or short phrases that users can associate with most Salesforce.com records to describe and organize their data in a personalized way?",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
