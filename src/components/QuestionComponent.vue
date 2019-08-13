@@ -96,7 +96,6 @@
                             this.bdExamTest.push(question);
                         }                        
                     }while (this.bdExamTest.length < this.numberOfQuestions);
-                    this.bdExamTest.forEach((q) => q.answers.forEach((a) => console.log(q.id + " - " + a.id)));                    
                 }, (error) => {
                     console.log(error);
                 })
