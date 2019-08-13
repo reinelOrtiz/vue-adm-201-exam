@@ -92,10 +92,11 @@
                     do{                        
                         let question = response.data[Math.floor(Math.random() * response.data.length)];
                         if(!this.bdExamTest.includes(question)){
-                            question.answers = this.randomSort(question.answers);
+                            question.answers = this.randomSort(question.answers);                            
                             this.bdExamTest.push(question);
-                        }                
-                    }while (this.bdExamTest.length < this.numberOfQuestions);                     
+                        }                        
+                    }while (this.bdExamTest.length < this.numberOfQuestions);
+                    this.bdExamTest.forEach((q) => q.answers.forEach((a) => console.log(q.id + " - " + a.id)));                    
                 }, (error) => {
                     console.log(error);
                 })

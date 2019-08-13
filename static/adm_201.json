@@ -2382,7 +2382,7 @@
 },
 {
     "id": 70,
-    "text": "A new field-based salesperson has joined WidgetsXYZ and started using Salesforce for the first time. You are the administrator at WidgetsXYZ, and the salesperson is telling you that they are always prompted to activate their laptop and always use the same browser.How would you respond?",
+    "text": "A new field-based sales person has joined WidgetsXYZ and started using Salesforce for the first time. You are the administrator at WidgetsXYZ, and the sales person is telling you that they are always prompted to activate their laptop and always use the same browser. How would you respond?",
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,

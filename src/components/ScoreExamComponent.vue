@@ -4,13 +4,14 @@
             <!--img class="card-img-top" src="" alt="Card image cap">-->
             <div class="card-body">
                 <h5 class="card-title">Resultado {{score}} / {{numberOfQuestions}}</h5>
-                <h1 class="card-text">{{(score*100)/numberOfQuestions}} %</h1>
+                <h1 class="card-text">{{ (score*100)/numberOfQuestions | percent}} %</h1>
                 <h6 class="card-text">{{timeElapsed}}</h6>
             </div>
         </div>
     </modal>
 </template>
 <script>
+    var numeral = require("numeral");
     export default {
         name: 'ScoreExamComponent',
         data() {
@@ -26,6 +27,11 @@
                 this.numberOfQuestions = event.params.numberOfQuestions;
                 this.timeElapsed = event.params.timeElapsed;
             }                          
+        },
+        filters: {
+            percent(val) {
+                return numeral(val).format("0.0");;
+            }
         }
     }
 </script>
