@@ -9,7 +9,7 @@
                 <h6 class="card-text">{{timeElapsed}}</h6>
             </div>
         </div>
-        <LoaderComponent class="center-loader" v-if="loadingWizard"></LoaderComponent>
+        <LoaderComponent class="center-loader" v-if="loadingWizard" :loaderName="'Gauge'"></LoaderComponent>
     </modal>
 </template>
 <script>

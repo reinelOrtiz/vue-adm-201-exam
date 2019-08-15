@@ -1,67 +1,73 @@
 <template>
-    <div class="alert alert-info border border-info rounded">
+    <div>
 
-        <div class="container">
-            <div class="row">
-                <TimerComponent ref="timerCount"></TimerComponent>
-            </div>
-        </div>
-        
-        <form-wizard
-            @on-complete="onComplete"
-            step-size="xs"
-            color="#0c5460a6"
-            title="Salesforce ADM-201 Exam" subtitle=".">
-            <hr>
+        <LoaderComponent class="center-loader" v-if="loadingWizard" :loaderName="'Origami'"></LoaderComponent>
 
-            <tab-content v-if="!loadingWizard">
-              <p>Esta prueba contiene {{numberOfQuestions}} preguntas. Encontrará preguntas de selección múltiple y de única respuesta (no todas estan marcadas por el tipo), 
-                  tendrá que seleccionar la mejor opción u opciones según corresponda de acuerdo a la pregunta. Al finalizar se mostrará el resumen de la prueba y podrá navegar
-                  a través de las preguntas para verificar sus respuestas.</p>
-                  <p>Nota: Para reiniciar la prueba presione <span style="font-weight: bold">F5</span> en esta página, será redireccionado a la página inicial para seleccionar la cantidad de preguntas.
-                      Tenga en cuenta que si lo realiza durante el transcurso de una prueba, su proceso se perderá y tendrá que inciar nuevamente.</p>
-                  <h4>good luck!</h4>
-            </tab-content>
+        <div class="alert alert-info border border-info rounded" v-if="!loadingWizard">
 
-            <tab-content v-for="(question, index) in bdExamTest" :key="index" class="text-left"
-                :before-change="() => validateStep(question)">
-
-                <h5>{{question.text}}</h5><span v-if="question.obs !== ''">{{question.obs}}<br></span><br>
-                <div v-for="(answer, index) in question.answers" :key="index">
-
-                    <div v-if="question.single_type" class="custom-control custom-radio">
-                        <input type="radio" 
-                            :id="'question_' + question.id + '_answer_' + answer.id" 
-                            :name="'question_' + question.id"
-                            :value="answer.id" v-model="question.answ_selected"
-                            class="custom-control-input">
-                            
-                            <label :for="'question_' + question.id + '_answer_' + answer.id" class="custom-control-label">
-                                <span v-if="attemps > 0 && answer.is_ok" class="is_ok">&#10003;</span>
-                                <span v-if="attemps > 0 && !answer.is_ok" class="is_wrong">&#10008;</span>
-                                {{answer.text}}</label>
-                    </div>
-
-                    <div v-if="!question.single_type" class="custom-control custom-checkbox">
-                        <input type="checkbox" 
-                            :id="'question_' + question.id + '_answer_' + answer.id" 
-                            :name="'question_' + question.id"
-                            :value="!answer.is_selected" v-model="answer.is_selected"
-                            class="custom-control-input">
-                            
-                            <label :for="'question_' + question.id + '_answer_' + answer.id" class="custom-control-label">
-                                <span v-if="attemps > 0 && answer.is_ok" class="is_ok">&#10003;</span>
-                                <span v-if="attemps > 0 && !answer.is_ok" class="is_wrong">&#10008;</span>
-                                {{answer.text}}
-                            </label>
-                    </div>                    
+            <div class="container">
+                <div class="row">
+                    <TimerComponent ref="timerCount"></TimerComponent>
                 </div>
-                <div class="text-right" style="color: #8b0000; font-style: italic;"><label>{{nonSelectedMsj}}</label></div>
+            </div>
+            
+            <form-wizard
+                @on-complete="onComplete"
+                step-size="xs"
+                color="#0c5460a6"
+                title="Salesforce ADM-201 Exam" subtitle=".">
                 <hr>
-            </tab-content>    
-        </form-wizard>
 
-        <ScoreExamComponent></ScoreExamComponent>
+                <tab-content v-if="!loadingWizard">
+                <p>Esta prueba contiene {{numberOfQuestions}} preguntas. Encontrará preguntas de selección múltiple y de única respuesta (no todas estan marcadas por el tipo), 
+                    tendrá que seleccionar la mejor opción u opciones según corresponda de acuerdo a la pregunta. Al finalizar se mostrará el resumen de la prueba y podrá navegar
+                    a través de las preguntas para verificar sus respuestas.</p>
+                    <p>Nota: Para reiniciar la prueba presione <span style="font-weight: bold">F5</span> en esta página, será redireccionado a la página inicial para seleccionar la cantidad de preguntas.
+                        Tenga en cuenta que si lo realiza durante el transcurso de una prueba, su proceso se perderá y tendrá que inciar nuevamente.</p>
+                    <h4>good luck!</h4>
+                </tab-content>
+
+                <tab-content v-for="(question, index) in bdExamTest" :key="index" class="text-left"
+                    :before-change="() => validateStep(question)">
+
+                    <h5>{{question.text}}</h5><span v-if="question.obs !== ''">{{question.obs}}<br></span><br>
+                    <div v-for="(answer, index) in question.answers" :key="index">
+
+                        <div v-if="question.single_type" class="custom-control custom-radio">
+                            <input type="radio" 
+                                :id="'question_' + question.id + '_answer_' + answer.id" 
+                                :name="'question_' + question.id"
+                                :value="answer.id" v-model="question.answ_selected"
+                                class="custom-control-input">
+                                
+                                <label :for="'question_' + question.id + '_answer_' + answer.id" class="custom-control-label">
+                                    <span v-if="attemps > 0 && answer.is_ok" class="is_ok">&#10003;</span>
+                                    <span v-if="attemps > 0 && !answer.is_ok" class="is_wrong">&#10008;</span>
+                                    {{answer.text}}</label>
+                        </div>
+
+                        <div v-if="!question.single_type" class="custom-control custom-checkbox">
+                            <input type="checkbox" 
+                                :id="'question_' + question.id + '_answer_' + answer.id" 
+                                :name="'question_' + question.id"
+                                :value="!answer.is_selected" v-model="answer.is_selected"
+                                class="custom-control-input">
+                                
+                                <label :for="'question_' + question.id + '_answer_' + answer.id" class="custom-control-label">
+                                    <span v-if="attemps > 0 && answer.is_ok" class="is_ok">&#10003;</span>
+                                    <span v-if="attemps > 0 && !answer.is_ok" class="is_wrong">&#10008;</span>
+                                    {{answer.text}}
+                                </label>
+                        </div>                    
+                    </div>
+                    <div class="text-right" style="color: #8b0000; font-style: italic;"><label>{{nonSelectedMsj}}</label></div>
+                    <hr>
+                </tab-content>    
+            </form-wizard>
+
+            <ScoreExamComponent></ScoreExamComponent>
+            
+        </div>
              
     </div> 
 </template>
@@ -69,6 +75,7 @@
     import axios from 'axios'
     import ScoreExamComponent from './ScoreExamComponent'
     import TimerComponent from './TimerComponent'
+    import LoaderComponent from './LoaderComponent'
     
     export default {
         name: 'QuestionComponent',
@@ -80,11 +87,13 @@
                 numberOfQuestions: 0,
                 nonSelectedMsj: '',
                 loadingWizard: false,
+                loadingWizard: true
             }
         },
         components: {
             'ScoreExamComponent': ScoreExamComponent,
-            'TimerComponent': TimerComponent
+            'TimerComponent': TimerComponent,
+            'LoaderComponent': LoaderComponent
         },
         methods: {
             setLoading: function(value) {
@@ -195,10 +204,14 @@
             } else {
                 this.getQuestions(numberOfQuestions);
             }
+            setTimeout(() => this.loadingWizard= false, 2500);
         }
     }
 </script>
 <style>
+.center-loader{
+    margin-top: 250px;
+}
 span.is_ok{
     color: #50ae20;
     font-weight: bold;
