@@ -95,7 +95,7 @@
                             question.answers = this.randomSort(question.answers);                            
                             this.bdExamTest.push(question);
                         }                        
-                    }while (this.bdExamTest.length < 1); // this.numberOfQuestions
+                    }while (this.bdExamTest.length < this.numberOfQuestions); // 
                     //this.bdExamTest.forEach((q) => console.log(q.id));
                 }, (error) => {
                     console.log(error);
@@ -112,7 +112,7 @@
                             return a.id === question.answ_selected;
                         });
                         if(answ.is_ok){
-                            question.is_ok = is_ok;
+                            question.is_ok = true;
                             score++;
                         }
                     } else {
