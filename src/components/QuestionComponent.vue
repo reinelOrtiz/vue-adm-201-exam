@@ -111,8 +111,10 @@
                         let answ = question.answers.find(function(a) {
                             return a.id === question.answ_selected;
                         });
-                        if(answ.is_ok)
+                        if(answ.is_ok){
+                            question.is_ok = true;
                             score++;
+                        }
                     } else {
                         let is_ok = true;
                         let answ = question.answers;
@@ -121,11 +123,14 @@
                                 is_ok = false;
                             }
                         });
-                        if(is_ok)
+                        if(is_ok){
+                            question.is_ok = true;
                             score++;
+                        }
                     }
                 });               
                 //alert('Resultado:' + score +' / '+ this.numberOfQuestions);
+                this.markQuestion();
                 this.show(score, this.numberOfQuestions, this.$refs.timerCount.timeElapsed);
 
             },
@@ -142,6 +147,18 @@
             },
             hide () {
                 this.$modal.hide('ScoreExamComponent');
+            },
+            markQuestion () {
+                let markList = document.querySelectorAll('.wizard-nav li');
+                
+                for (let index = 0; index < markList.length-1; index++) {                    
+                    if(!this.bdExamTest[index].is_ok){
+                        let myDiv = markList[index+1].getElementsByTagName("div").item(0);
+                        myDiv.innerHTML= "X";
+                        myDiv.style.color = "rgb(139, 0, 0)";              
+                        myDiv.style.borderColor = "rgb(139, 0, 0)";
+                    }
+                }
             },
             validateStep(qu) {
                 this.nonSelectedMsj = "";

@@ -4,7 +4,7 @@
     "obs": "(Select One)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -38,7 +38,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -72,7 +72,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -106,7 +106,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -146,7 +146,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -168,7 +168,7 @@
     "obs": "Choose 2 answers",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -202,7 +202,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -236,7 +236,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -258,7 +258,7 @@
     "obs": "",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -292,7 +292,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -314,7 +314,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -350,7 +350,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -372,7 +372,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -408,7 +408,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -444,7 +444,7 @@
     "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -480,7 +480,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -516,7 +516,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -552,7 +552,7 @@
     "obs": "(Choose 1 answer)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -588,7 +588,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -624,7 +624,7 @@
     "obs": "(Select all the aply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -664,7 +664,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -698,7 +698,7 @@
     "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -732,7 +732,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -766,7 +766,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -800,7 +800,7 @@
     "obs": "(Choose one answer:)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -834,7 +834,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -868,7 +868,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -902,7 +902,7 @@
     "obs": "(Select two)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -936,7 +936,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -958,7 +958,7 @@
     "obs": "(Select one)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -992,7 +992,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1026,7 +1026,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1060,7 +1060,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1094,7 +1094,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1128,7 +1128,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1162,7 +1162,7 @@
     "obs": "",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1202,7 +1202,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1232,11 +1232,11 @@
 },
 {
     "id": 38,
-    "text": "Sales reps at AW Computing need assistance from product managers when sellingcertain products. Product managers do not have access to Opportunities but need to gain access when assisting on a specific deal. How can the system administrator accomplish this?",
+    "text": "Sales reps at AW Computing need assistance from product managers when selling certain products. Product managers do not have access to Opportunities but need to gain access when assisting on a specific deal. How can the system administrator accomplish this?",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1270,7 +1270,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1300,11 +1300,11 @@
 },
 {
     "id": 40,
-    "text": "If Field Level Security prevents a user from viewing the Credit Card field on the Opportunity record,the user will also be prevented from seeing this field.",
+    "text": "If Field Level Security prevents a user from viewing the Credit Card field on the Opportunity record, the user will also be prevented from seeing this field.",
     "obs": "(choose all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1350,7 +1350,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1378,7 +1378,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1412,7 +1412,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1452,7 +1452,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1492,7 +1492,7 @@
     "obs": "",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1532,7 +1532,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1566,7 +1566,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1600,7 +1600,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1634,7 +1634,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1668,7 +1668,7 @@
     "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1708,7 +1708,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1742,7 +1742,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1764,7 +1764,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1798,7 +1798,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1832,7 +1832,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1866,7 +1866,7 @@
     "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1900,7 +1900,7 @@
     "obs": "(Choose two answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1934,7 +1934,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -1968,7 +1968,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2002,7 +2002,7 @@
     "obs": "",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2042,7 +2042,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2064,7 +2064,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2098,7 +2098,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2132,7 +2132,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2154,7 +2154,7 @@
     "obs": "(Select one)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2188,7 +2188,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2222,7 +2222,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2256,7 +2256,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2278,11 +2278,11 @@
     "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
-            "text": "Follow the steps in the Deploying Territory Management Guide to prepare your organization forterritory management.",
+            "text": "Follow the steps in the Deploying Territory Management Guide to prepare your organization for territory management.",
             "is_selected": false,
             "is_ok": true
         },
@@ -2312,7 +2312,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2346,7 +2346,7 @@
     "obs": "(Select one)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2380,7 +2380,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2414,7 +2414,7 @@
     "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2448,7 +2448,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2482,7 +2482,7 @@
     "obs": "(Choose 1 answer)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2516,7 +2516,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2550,7 +2550,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2590,7 +2590,7 @@
     "obs": "(Choose 3 answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2630,7 +2630,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2664,7 +2664,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2698,7 +2698,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2720,7 +2720,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2760,7 +2760,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2794,7 +2794,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2834,7 +2834,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2874,7 +2874,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2908,7 +2908,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2930,7 +2930,7 @@
     "obs": "",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2964,7 +2964,7 @@
     "obs": "",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -2998,7 +2998,7 @@
     "obs": "(Choose 1 answer)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3032,7 +3032,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3072,7 +3072,7 @@
     "obs": "(Choose 1 answer)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3106,7 +3106,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3128,7 +3128,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3162,7 +3162,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3190,7 +3190,7 @@
     "obs": "(Select all which are applicable)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3260,7 +3260,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3294,7 +3294,7 @@
     "obs": "(Check all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3328,7 +3328,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3362,7 +3362,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3396,7 +3396,7 @@
     "obs": "(Choose 1 answer)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3430,7 +3430,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3464,7 +3464,7 @@
     "obs": "(Choose 2 answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3498,7 +3498,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3532,7 +3532,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3572,7 +3572,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3594,7 +3594,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3634,7 +3634,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3668,7 +3668,7 @@
     "obs": "(Select all that apply)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3702,7 +3702,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3724,7 +3724,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3758,7 +3758,7 @@
     "obs": "(Choose two answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3792,7 +3792,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3826,7 +3826,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3848,7 +3848,7 @@
     "obs": "(choose all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3894,7 +3894,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3916,7 +3916,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -3962,7 +3962,7 @@
     "obs": "(Choose 3 answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4002,7 +4002,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4024,7 +4024,7 @@
     "obs": "(Select one)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4064,7 +4064,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4086,7 +4086,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4126,7 +4126,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4154,7 +4154,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4188,7 +4188,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4222,7 +4222,7 @@
     "obs": "(Select all that apply)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4262,7 +4262,7 @@
     "obs": "",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4302,7 +4302,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4336,7 +4336,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4358,7 +4358,7 @@
     "obs": "",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4392,7 +4392,7 @@
     "obs": "",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4420,7 +4420,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4454,7 +4454,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4500,7 +4500,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4546,7 +4546,7 @@
     "obs": "(Choose 1 answer)",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4580,7 +4580,7 @@
     "obs": "(Choose 3 answers)",
     "single_type": false,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4620,7 +4620,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
@@ -4654,7 +4654,7 @@
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
-    "answered": false,
+    "is_ok": false,
     "score": 1,
     "answers": [{
             "id": 1,
