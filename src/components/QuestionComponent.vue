@@ -205,17 +205,17 @@ span.is_wrong{
     content: "\2718";
 }
 .vue-form-wizard.xs .wizard-icon-circle {
-    width: 20px;
-    height: 20px;
-    font-size: 12px;
+    width: 20px !important;
+    height: 20px !important;
+    font-size: 12px !important;
 }
 .vue-form-wizard.xs .wizard-nav-pills > li.active > a .wizard-icon {
-    font-size: 12px;
+    font-size: 12px !important;
 }
 .vue-form-wizard.xs .wizard-navigation .wizard-progress-with-circle {
-    position: relative;
-    top: 15px;
-    height: 2px;
+    position: relative !important;
+    top: 15px!important;
+    height: 2px !important;
 }
 </style>
 

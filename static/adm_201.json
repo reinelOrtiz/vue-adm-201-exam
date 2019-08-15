@@ -1562,7 +1562,7 @@
 },
 {
     "id": 47,
-    "text": "The system administrator needs to ensure that all Leads coming from the website are assigned awebsite lead queue, that all Leads for a recent trade show are assigned to Matt Wilson and all other leads are assigned to Phil Smith. The system administrator will.",
+    "text": "The system administrator needs to ensure that all Leads coming from the website are assigned a website lead queue, that all Leads for a recent trade show are assigned to Matt Wilson and all other leads are assigned to Phil Smith. The system administrator will.",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
@@ -2334,7 +2334,7 @@
         },
         {
             "id": 4,
-            "text": "Explain to the salesperson that this is normal behavior and that the laptop is responding as expected.",
+            "text": "Explain to the sales person that this is normal behavior and that the laptop is responding as expected.",
             "is_selected": false,
             "is_ok": false
         }
