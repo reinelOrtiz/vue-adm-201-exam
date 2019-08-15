@@ -1,5 +1,5 @@
 <template>
-    <div class="alert alert-secondary border border-danger rounded">
+    <div class="alert alert-info border border-info rounded">
 
         <div class="container">
             <div class="row">
@@ -10,10 +10,11 @@
         <form-wizard
             @on-complete="onComplete"
             step-size="xs"
-            color="#e67e22"
-            title="Salesforce ADM-201 Exam" subtitle=""><hr>
+            color="#0c5460a6"
+            title="Salesforce ADM-201 Exam" subtitle=".">
+            <hr>
 
-            <tab-content>
+            <tab-content v-if="!loadingWizard">
               <p>Esta prueba contiene {{numberOfQuestions}} preguntas. Encontrará preguntas de selección múltiple y de única respuesta (no todas estan marcadas por el tipo), 
                   tendrá que seleccionar la mejor opción u opciones según corresponda de acuerdo a la pregunta. Al finalizar se mostrará el resumen de la prueba y podrá navegar
                   a través de las preguntas para verificar sus respuestas.</p>
@@ -55,7 +56,7 @@
                             </label>
                     </div>                    
                 </div>
-                <div class="text-right" style="color: #e60b0b; font-weight: bold"><label>{{nonSelectedMsj}}</label></div>
+                <div class="text-right" style="color: #8b0000; font-style: italic;"><label>{{nonSelectedMsj}}</label></div>
                 <hr>
             </tab-content>    
         </form-wizard>
@@ -68,7 +69,7 @@
     import axios from 'axios'
     import ScoreExamComponent from './ScoreExamComponent'
     import TimerComponent from './TimerComponent'
-
+    
     export default {
         name: 'QuestionComponent',
         props: ['questionList'],
@@ -77,7 +78,8 @@
                 attemps: 0,
                 bdExamTest: [],
                 numberOfQuestions: 0,
-                nonSelectedMsj: ''
+                nonSelectedMsj: '',
+                loadingWizard: false,
             }
         },
         components: {
@@ -85,6 +87,9 @@
             'TimerComponent': TimerComponent
         },
         methods: {
+            setLoading: function(value) {
+                this.loadingWizard = value
+            },
             getQuestions(numberOfQuestions) {                
                 this.numberOfQuestions = numberOfQuestions;                
                 let url_bd = './static/adm_201.json';
@@ -216,6 +221,55 @@ span.is_wrong{
     position: relative !important;
     top: 15px!important;
     height: 2px !important;
+}
+
+span.error{
+  color:#e74c3c;
+  font-size:20px;
+  display:flex;
+  justify-content:center;
+}
+/* This is a css loader. It's not related to vue-form-wizard */
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+.loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid #e74c3c;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 </style>
 
