@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <LoaderComponent class="center-loader" v-if="loadingWizard" :loaderName="'Origami'"></LoaderComponent>
+        <LoaderComponent class="center-loader" v-if="loadingWizard" :loaderName="'Circle10'"></LoaderComponent>
 
         <div class="alert alert-info border border-info rounded" v-if="!loadingWizard">
 

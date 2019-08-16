@@ -2,14 +2,14 @@
     <div>        
         <Gauge :size="260" v-if="loaderName === 'Gauge'"></Gauge>
         <RotateSquare5 :size="120" v-if="loaderName === 'RotateSquare5'"></RotateSquare5>
-        <Origami :size="120" v-if="loaderName === 'Origami'"></Origami>
+        <Circle10 :size="120" v-if="loaderName === 'Circle10'"></Circle10>
     </div>    
 </template>
 <script>
 
     import Gauge from 'vue-loading-spinner/src/components/Gauge'; 
     import RotateSquare5 from 'vue-loading-spinner/src/components/RotateSquare5';
-    import Origami from 'vue-loading-spinner/src/components/Origami';
+    import Circle10 from 'vue-loading-spinner/src/components/Circle10';
 
     export default {
         name: 'LoaderComponent',
@@ -25,7 +25,7 @@
         components: {            
             'Gauge': Gauge,
             'RotateSquare5': RotateSquare5,
-            'Origami': Origami
+            'Circle10': Circle10
         }
     }
 </script>
