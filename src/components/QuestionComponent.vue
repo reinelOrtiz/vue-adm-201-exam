@@ -19,7 +19,7 @@
                 <hr>
 
                 <tab-content v-if="!loadingWizard">
-                <p>Esta prueba contiene {{numberOfQuestions}} preguntas. Encontrará preguntas de selección múltiple y de única respuesta (no todas estan marcadas por el tipo), 
+                <p>En esta prueba encontrará preguntas de selección múltiple y de única respuesta (no todas estan marcadas por el tipo), 
                     tendrá que seleccionar la mejor opción u opciones según corresponda de acuerdo a la pregunta. Al finalizar se mostrará el resumen de la prueba y podrá navegar
                     a través de las preguntas para verificar sus respuestas.</p>
                     <p>Nota: Para reiniciar la prueba presione <span style="font-weight: bold">F5</span> en esta página, será redireccionado a la página inicial para seleccionar la cantidad de preguntas.

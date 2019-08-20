@@ -3665,7 +3665,7 @@
 {
     "id": 109,
     "text": "Which data import facility can be used to import 25,000 case records into Salesforce",
-    "obs": "(Select all that apply)",
+    "obs": "",
     "single_type": true,
     "answ_selected": 0,
     "is_ok": false,
