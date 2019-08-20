@@ -6914,7 +6914,7 @@
             "id": 1,
             "text": "Save",
             "is_selected": false,
-            "is_ok": false
+            "is_ok": true
         },
         {
             "id": 2,
@@ -6932,7 +6932,7 @@
             "id": 4,
             "text": "Show\/hide details",
             "is_selected": false,
-            "is_ok": false
+            "is_ok": true
         },
         {
             "id": 5,
