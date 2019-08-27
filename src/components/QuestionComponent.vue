@@ -144,8 +144,8 @@
                     }
                 });               
                 //alert('Resultado:' + score +' / '+ this.numberOfQuestions);
-                this.markQuestion();
                 this.show(score, this.numberOfQuestions, this.$refs.timerCount.timeElapsed);
+                this.markQuestion();
 
             },
             randomSort(list) {

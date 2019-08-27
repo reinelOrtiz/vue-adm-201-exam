@@ -1704,7 +1704,7 @@
 },
 {
     "id": 51,
-    "text": "The value in a Custom Field called Salary is 50,000. What would the formula, ISNUMBER (Salary_c),return:",
+    "text": "The value in a Custom Field called Salary is 50,000. What would the formula, ISNUMBER (Salary_c), return:",
     "obs": "",
     "single_type": true,
     "answ_selected": 0,
@@ -8283,6 +8283,5224 @@
             "text": "From a public knowledge base site",
             "is_selected": false,
             "is_ok": true
+        }
+    ]
+},
+{
+    "id": 251,
+    "text": "If you defined a custom fiscal year structure, your company can not revert to the Gregorian calendar for fiscal purposes",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 252,
+    "text": "A defines a collection of settings and permissions that determines what users can see in the user interface, and what they can do",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Company Profile",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Chatter feed",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Profile",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Role",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 253,
+    "text": "Which statement about custom summary formulas in reports is true?",
+    "obs": "(Choose two answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Custom summary formulas can reference a formula field within a report.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Custom summary formulas can be used in a report built from a custom report type.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Reports can be grouped by a custom summary formula result.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Custom summary formulas can reference another custom summary formula.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 254,
+    "text": "When are custom fields removed from the recycle bin?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "60 days",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "30 days",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "90 days",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "45 days",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 255,
+    "text": "The opportunities fields of the campaign statistics section on a campaign detail page will only be populated for the campaign designated as the primary campaign source?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 256,
+    "text": "Which of the following is part of the Sales Cloud 2?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Cases",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Accounts and Contacts",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Marketing and Leads",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Content Library",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Solutions",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 6,
+            "text": "Opportunities and Quotes",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 257,
+    "text": "Which type(s) of file(s) is accessible through Content?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Files attached to a Chatter profile post.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Salesforce CRM Content can include all file types.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Microsoft® PowerPoint presentations.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "PPT and Video files only.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Audio Files.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 6,
+            "text": "Video Files.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 258,
+    "text": "Who can view campaigns?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Administrator and Marketing Users only",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Marketing User only",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "All users",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Administrator",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 259,
+    "text": "Use to filter or segment picklist values based on the user's profile.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Field Level Security",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Record Types",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Business Processes",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "User Profiles",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Role Hierarchy",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 260,
+    "text": "Which of the following are capabilities of Salesforce Knowledge?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Users can search and view articles without a Knowledge User license.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Users can create and publish articles without the Manage Articles permission.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Users can add and remove supported languages in the knowledge base.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Users can provide feedback on the Chatter feed of a draft article",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 261,
+    "text": "Why should you consider using the Import Wizard over the Data Loader?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "If you need to import to custom objects only",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "If you need to import more than 1,000,000 records",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "If you require some De-Duplication",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "You need field auto-mapping functionality",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 262,
+    "text": "Chatter External license allow users outside the company to join public Chatter groups.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 263,
+    "text": "The Marketing User checkbox on a user record allows users to do which of the follow actions:",
+    "obs": "(Multiple correct answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Edit campaigns",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Configure advanced campaign setup",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Delete campaigns",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Create campaigns",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Use the campaign import wizard",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 264,
+    "text": "Records & Record Detail Pages: What is NOT true of hover links in SFDC?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Just about every link in SFDC can be hovered over, and a summary window will popup.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Hover links are cool and will save me some time when researching info about accounts, leads, opportunities, etc.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Hover links can be found on record detail pages (for leads, opportunities, etc)",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "When I hover over them, I begin to levitate in my chair",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Top of page hover links often provide a summary of information found on the bottom of a page so I don’t have to scroll down to see important activity history, notes, etc",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 265,
+    "text": "IF(ISPICKVAL(picklist_field)) has the same output as:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "CASE(picklist_field)",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Picklist_field(VALUE)",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "VAL(picklist_field)",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "CASE(\"picklist_field\")",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 266,
+    "text": "Mass Mail Contacts option doesn't appear under the Tools section in the Contacts tab, what could have caused this?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The user Role is insufficient to view this tool",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "This is a bug and must be escalated",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Email is unchecked for that profile in FLS",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Mass mail is not checked in FLS",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Mass mail is not enabled for the profile.",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 267,
+    "text": "The “Open Calendar” link below any list view can be clicked to display a view of my calendar. But, can I drag records from the list to time slots on the calendar to create events (sales calls, etc) for these records?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Yes",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "No",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 268,
+    "text": "Universal Containers needs to track the manufacturer and model for specific car companies.How can the system administrator ensure that the manufacturer selected influences the values available for the model?",
+    "obs": "(Choose one answer)",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Create a multi-select picklist field that includes both manufacturers and models.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Create a lookup field from the manufacturer object to the model object.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Create the manufacturer field as a dependent picklist and the model as a controlling picklist.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Create the manufacturer field as a controlling picklist and the model as a dependent picklist.",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 269,
+    "text": "Who may be assigned a workflow task?",
+    "obs": "(There are 5 correct answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The Record owner",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "An Account team role",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "A Sales Team Role",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "The Record creator",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Multiple users",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 6,
+            "text": "A single user",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 270,
+    "text": "Which Service Cloud and Service Cloud Console Enhancements are Automatically visible to all Administrators without any setup required?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Multiple Languages for Salesforce Knowledge",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Salesforce Knowledge Sidebar for the Service Cloud Console (Contextual Knowledge)",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Additional Case Article Fields Available for Reports and the Articles Related List",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Salesforce Knowledge Article Number",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Global Search for the Service Cloud Console",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 271,
+    "text": "How many profiles can load in a single list view with Enhanced Profile Management enabled?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "200",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "300",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "1.000",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "500",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 272,
+    "text": "Which of the following statements are true about Import wizard?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "When importing data file size cannot exceed 100 MB and each record in the file cannot be bigger than 400 KB",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "You can import Accounts, contacts, leads, solutions and custom objects using the Import wizard",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "You can work with both records of data and metadata",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Standard users can import up to 50000 account or contact records per session",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 273,
+    "text": "How many custom fields can be created on an object in an unlimited Edition?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "100",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "500",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "200",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Unlimited Fields",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 274,
+    "text": "A custom lead field can be mapped to:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "One case comment",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "One solution field",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "One account field",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Two contact fields",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 275,
+    "text": "Salesforce.com instance has Multiple Currencies as Activated. What is the maximum granularity available for tracking changes in Currency Rates?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "1 Week",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "1 Hour",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "1 Day",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "1 Minute",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 276,
+    "text": "The company wants all opportunities associated with an account to be added in and displayed on the account record detail page. Is it possible?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "No, accounts cannot be edited",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Yes, workflow rule",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Yes, custom summary field",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Yes, roll up summary field",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 277,
+    "text": "Fields which are hidden using Field-Level-Security are still subject to Validation Rules?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 278,
+    "text": "Your company sells internet service that is invoiced monthly. What should you create to represent this?",
+    "obs": "(Choose 1 answer)",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "A revenue schedule",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "A default quantity and revenue schedule",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "A default product schedule",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "A quantity schedule",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 279,
+    "text": "What happens when an email is sent to a customer from a case?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Case assignment rules are deleted",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Case hierarchy is reset",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Case escalation is reset",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Case escalation rules are deleted",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 280,
+    "text": "Users with access to opportunities as sales team members cannot extend sharing for those records:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 281,
+    "text": "To minimize the number of sharing rules, use \"Roles and Subordinates\" over \"Roles\" where possible.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 282,
+    "text": "Is it possible to relate a person account to a contact on a business account.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 283,
+    "text": "What can a user do an account record that has been manually shared read\/write with him\/her?",
+    "obs": "(Select 2)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Transfer the account",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Delete the account",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Share it to other users",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "View the account",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Edit the account",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 284,
+    "text": "Custom Picklist fields can be either controlling or dependent fields",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 285,
+    "text": "Which objects can be customized for history tracking?",
+    "obs": "(Select one)",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Cases, Leads, Solutions, Contracts, and Custom Objects",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Solutions, Cases, Leads and Opportunities",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Campaigns, Contracts, Custom Objects, and Solutions",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Opportunities, Leads, and Contracts",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 286,
+    "text": "Which statement is TRUE regarding dependent lookups?",
+    "obs": "(Choose 2 answers:)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "They can be configured when creating the master-detail or lookup relationships.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "They can be configured to compare data to external sources to verify that contact and prospect information is up to date.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "They can be configured to limit the records returned by a lookup based on the value of a field on a related record.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "They can be configured to make fields on related records, depending on data in the source record",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 287,
+    "text": "When creating a custom report type Making the status “In Development” hides the custom report type and any reports created from it from all users except those with the “Manage Custom Report Types” permission.",
+    "obs": "Making the status “In Development” also prevents all users except those with the “Manage Custom Report Types” permission from creating and running reports from the report type.",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 288,
+    "text": "Which of the following components lets customers find solutions to their cases on their own?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Call center",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Customer Portal",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Chat",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Email",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 289,
+    "text": "How can knowledge base articles be searched?",
+    "obs": "(Choose 3 answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Using federated search on the Knowledge tab",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "From the Article Management tab",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Using global search",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Using sidebar search",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 290,
+    "text": "What is true about the running user for a dashboard?",
+    "obs": "Choose 2 answers.",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The dashboard will only display for the running user",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "The running user's security settings will determine the data that is displayed",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "If a user drills down into a source report. the report will display data based on the running user's security settings",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "The running user can be changed on the dashboard view page by authorized users",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 291,
+    "text": "If a field is visible in the search layout but hidden for certain users via the field-level security settings then which of the following statement is true?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The field-level security overrides the search layout and the field will be hidden for those users",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "The field-level security overrides the search layout and the field will be hidden for all users",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "The field will still be visible in search layout to all the users",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 292,
+    "text": "The record owner is a user or a queue that has control or rights to a particular data record.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 293,
+    "text": "What are the key concepts of workflow automation in Salesforce CRM?",
+    "obs": "(Select one)",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Workflow rules and time-dependent features.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Workflow rules and actions.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Workflow field updates and task actions.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Workflow e-mail alerts and task actions.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 294,
+    "text": "Case escalation rules triggered on the last modification will be reset each time a user adds a related comment to the case?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 295,
+    "text": "Is possible to view a forecast based on all of the following EXCEPT:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Territory",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Product Family",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Date Range",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Sales Team",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 296,
+    "text": "Which of the following does a Profile control?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Read, Create, Edit, and Delete permissions",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Sharing rules",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Username and Password",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Role level access",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 297,
+    "text": "The Sales Director wants to be alerted to deals that are greater than $1,000,000. Which tools can you use to achieve this?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Ask the Sales Director to create a list view which shows Opportunities greater than 1,000,000",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Big Deal Alerts",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Workflow - Create a workflow to send an email if an Opportunity amount is great than 1,000,000",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Create a report and monitor it daily",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 298,
+    "text": "Queues cannot be created on which Object in salesforce.com?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Lead",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Account",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Custom Object",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Case",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 299,
+    "text": "Which of the following are setting options for the User Interface?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Show Quick Create",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Show customer Sidebar Components on All Pages",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Transfer all Open Opportunities",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Enable Drag-and-drop scheduling on List Views",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Enable Collapsible Sections",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 300,
+    "text": "Is identity confirmation necessary if a user's IP address is known and browser cookie exists?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 301,
+    "text": "When a user refreshes a dashboard, who does the dashboard get refreshed for?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The administrator.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "The running user only",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "The user and all those who have access to the dashboard",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "the",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 302,
+    "text": "What is True about the Role Hierarchy",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Controls data visibility",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Not necessarily the company org. chart",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Controls record roll-up forecating and reporting",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Controls Read \/ Write and Transfer Rules for each user",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 303,
+    "text": "What should a system administrator use to disable access to a custom application for a group of users?",
+    "obs": "(Choose one answer)",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Sharing rules",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Web tabs",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Profiles",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Page layouts",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 304,
+    "text": "Can a user restrict access with the help of the sharing rules?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Yes",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "No",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 305,
+    "text": "What are two sources from which cases can be created?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Email-to-Case",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Web-to-Web",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Connect for Outlook",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Web-to-Lead",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 306,
+    "text": "When looking at a vertical column chart, what can a user click on to drill down to a filtered source report?",
+    "obs": "(Choose 3 answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Legend entries",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "The X- axis",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Individual groups",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "The Y - axis",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Component header",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 307,
+    "text": "Where are UI component for tag Access located?",
+    "obs": "(Choose 2)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "View tags on header",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Edit tag links",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Page title",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Sidebar widget",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 308,
+    "text": "To create, edit, and delete dynamic dashboards: “Run Reports” AND “Manage Dynamic Dashboards” Which of the following events are allowed while writing a trigger on feeds item and feed Comment object?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Insert, Undelete",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Insert, Update",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Insert, Delete",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Insert, Update, Delete",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Update, Undelete",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 309,
+    "text": "What determines a unique User Record?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "User Role",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Custom Profile",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "User Name",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Standard Profile",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 310,
+    "text": "Which of the following is true about salesforce?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Std reports address to top needs of most users from sales to marketing",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Std reports give you access to data you cant normally see",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Std reports can be customized and saved under a new name",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Dozens of std reports are provided by SF",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 311,
+    "text": "Which of the following is not a standard Profile?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Partner Portal User",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Standard Administrator",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "System Administrator",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Marketing Director",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Read only",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 312,
+    "text": "If a user leaves your company, the system administrator should do the following to prevent future access to the Salesforce org.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Delete their user record",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "De-activate their user record",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Delete any accounts or contacts owned by that user",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 313,
+    "text": "Can you uninstall an App Exchange application once it has been deployed?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "No",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Yes",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 314,
+    "text": "What should a system administrator use to disable an application for a group of users?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Roles",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Sharing Rules",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Page layouts",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Profiles",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Web tabs",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 315,
+    "text": "If a user tries to login outside the IP range specified in their profile, the result will be.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "They will be prompted to activate their computer",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "They will be denied access",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "They will have to reset their password",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "They will be logged in as normal",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 316,
+    "text": "Which of the following are true about mapping fields for lead conversion:",
+    "obs": "(Multiple correct answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "You can map Number, Currency, or Percentage fields of differing lengths.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "You cannot map auto-number fields to fields of type Text or Text Area",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "You can map between text and picklist fields",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "You can map Text or Text Area to long text area fields",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "If you change the data type of any custom field user for lead conversion, that lead field mapping will be deleted.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 6,
+            "text": "You can map auto-number fields to Picklists",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 317,
+    "text": "Scheduled reports run in the time zone of the user who schedules the report.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 318,
+    "text": "If Custom Fiscal Years are enabled then you cannot use Standard Forecasting?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 319,
+    "text": "When importing Lead records you must use _______ Currency",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "An active",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "An active or inactive",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "An inactive",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 320,
+    "text": "What would prevent a user from including fields when running a report?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Field-level security & page layouts",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Field-level security only",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Page layouts only",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 321,
+    "text": "If territory management is enabled for your organization and a lead is converted, how does it get assigned?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Gets assigned to lead owner's territory",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Get assigned to the user's territory",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Based on territory field",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Based on assignment rule",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 322,
+    "text": "If there are any users in the organization that shouldn't have view access to Account records, the OWD for Accounts should be set to",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Public Read\/Write\/Transfer",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Private",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Public Read Only",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "None",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 323,
+    "text": "Select the feature that can be used to automatically generate a Chatter post when fields within a record are updated.",
+    "obs": "(Select one)",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Feed tracking.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Customer Invitations.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Publisher Actions.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Coworker Invitations.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 324,
+    "text": "Who can submit an idea to Salesforce.com IdeaExchange?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Sales force employees",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Salesforce.com partners",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Anyone who has a login to Idea Exchange",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Salesforce.com users",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 325,
+    "text": "The page layout allows users to see the Next Steps field on an Opportunity record, Field Level Security dictates that the field is hidden, how will the field appear to the user?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The field will be hidden from the user",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "None of the above",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "The field will be visible and editable to the user",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "The field will be read only",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 326,
+    "text": "What is the maximum number of records to be printed in the Printable View of a list view?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "1.000",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "2.000",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "200",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "100",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 327,
+    "text": "If the System Administrator set a user to create only a certain record type, this user's ability to view other record types is affected.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 328,
+    "text": "A Look-up field can look up to what?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "A field",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "A record",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "An Object",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "A report",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 329,
+    "text": "What would you change if all of your online help was displayed in English and you wanted it to be German?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Default Language",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Default Locale",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Default Currency",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Time Zone",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 330,
+    "text": "What statements is False for a workflow task:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "To assign tasks to multiple users, create multiple tasks as outcomes of the rule",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "A single task can be assigned to multiple users",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "The due dates for workflow task is based on number of calendar days, The rule fails to recognize only working business days by default",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Historical tracking is allowed for workflow task",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 331,
+    "text": "What is Sharing Rule?",
+    "obs": "",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Automated rules that grant access to groups of users",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Exceptions to Org. wide Defaults",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Rules given for group of user working closely on a project",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Irrelevant for Public Read / Write Organizations",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 332,
+    "text": "Which of the following processes can workflow rules be used to automate?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Sending an e-mail alert to an account owner whenever updates are made to the account by another user.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Assigning a follow-up task to a marketing executive whenever a new lead is entered in the system.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Assigning a new lead to a queue.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Automatically updating an opportunity field whenever the opportunity reaches a specified sales stage.",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 333,
+    "text": "Reports show only the information you can access where as Dashboards show information which you even cannot access.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 334,
+    "text": "Are custom object reports accessible when you add a custom object tab?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Yes",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "No",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Only if the Object is not related to any other object",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 335,
+    "text": "Where can you make a field required?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Validation Rules",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Field Edit page",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Workflow Rule",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Record Type",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Page Layouts",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 336,
+    "text": "are words or short phrases that users can associate with most Salesforce.com records to describe and organize their data in a personalized way?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Views",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Tags",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Dashboards",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Home Pagelayout",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 5,
+            "text": "Apps",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 337,
+    "text": "How can Chatter feed for content can be used?",
+    "obs": "(Choose 2 answers)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "To store Chatter posts in content",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "To share files from a workspace to a feed",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "To link a workspace to a Chatter from content",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "To search for files posted to Chatter from content",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 338,
+    "text": "Which type of field cannot have universal requiredness?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Lookup",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Text",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Email",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Number",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 339,
+    "text": "If a lead, with a single marketing campaign is converted, the campaign information will map to the newly created contact and opportunity record automatically",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 340,
+    "text": "Every profile, including profiles associated with Customer Portal users must have at least one visible app.",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "True",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "False",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 341,
+    "text": "Which of following is granted by the Manage Territories Permission?",
+    "obs": "(Select all that apply)",
+    "single_type": false,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Create and edit territories",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 2,
+            "text": "Add and remove users from territories",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "Create and Edit Forecasts",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Create and edit account assignment rules",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 5,
+            "text": "Manually assign accounts to territories",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 6,
+            "text": "Configure organization-wide territory management settings",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 342,
+    "text": "Which of the following statements are true concerning email activation?",
+    "obs": "(Select one)",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "The email activation feature requires that the user click an activation link before logging onto a new computer.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "The email activation feature cannot be disabled.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "The email activation feature can be disabled by request to Salesforce.com support.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "The email activation feature can be disabled through the UI.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 343,
+    "text": "How many fields (columns) can be displayed on a Customizable Related List?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "50",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "10",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "25",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "100",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 344,
+    "text": "When are the formula fields Re - Calculated?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Every 15 minutes",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Every time they are seen",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "After every DML Operation",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Admin can set the time of Refresh",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 345,
+    "text": "An admin changed the org default language from English to spanish. What must end users do to see this change?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Nothing they will see the application in Spanish immediately",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Refresh their browser",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Logout then login again",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "Change their language personal preference to Spanish",
+            "is_selected": false,
+            "is_ok": true
+        }
+    ]
+},
+{
+    "id": 346,
+    "text": "What features or experiences are presented when you set up a dynamic dashboard?",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Dynamic dashboards run using the security settings of the named running user.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Dynamic dashboards show blank graphs if the viewing user is a non-active user.",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "Dynamic dashboards run using the security settings of the user viewing the dashboard.",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 4,
+            "text": "Dynamic dashboards refresh automatically when the underlying data changes.",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 347,
+    "text": "You can enable field encryption by:",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "Selecting \"Enable Field Encryption\" under Organization Wide Defaults",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "Contacting Saleforce.com Customer Support",
+            "is_selected": false,
+            "is_ok": true
+        },
+        {
+            "id": 3,
+            "text": "It is enabled by default",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": 348,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        }
+    ]
+},
+{
+    "id": #,
+    "text": "",
+    "obs": "",
+    "single_type": true,
+    "answ_selected": 0,
+    "is_ok": false,
+    "score": 1,
+    "answers": [{
+            "id": 1,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 2,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 3,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
+        },
+        {
+            "id": 4,
+            "text": "",
+            "is_selected": false,
+            "is_ok": false
         }
     ]
 }
