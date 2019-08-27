@@ -163,6 +163,7 @@
                 this.$modal.hide('ScoreExamComponent');
             },
             markQuestion () {
+
                 let markList = document.querySelectorAll('.wizard-nav li');
                 
                 for (let index = 0; index < markList.length-1; index++) {                    
