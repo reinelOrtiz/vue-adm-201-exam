@@ -9939,12 +9939,6 @@
             "text": "The user and all those who have access to the dashboard",
             "is_selected": false,
             "is_ok": true
-        },
-        {
-            "id": 4,
-            "text": "the",
-            "is_selected": false,
-            "is_ok": false
         }
     ]
 },
@@ -11459,40 +11453,6 @@
         {
             "id": 3,
             "text": "It is enabled by default",
-            "is_selected": false,
-            "is_ok": false
-        }
-    ]
-},
-{
-    "id": 348,
-    "text": "",
-    "obs": "",
-    "single_type": true,
-    "answ_selected": 0,
-    "is_ok": false,
-    "score": 1,
-    "answers": [{
-            "id": 1,
-            "text": "",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 2,
-            "text": "",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 3,
-            "text": "",
-            "is_selected": false,
-            "is_ok": false
-        },
-        {
-            "id": 4,
-            "text": "",
             "is_selected": false,
             "is_ok": false
         }
